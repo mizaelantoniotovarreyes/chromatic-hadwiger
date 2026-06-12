@@ -136,7 +136,7 @@ chromatic-hadwiger/
 |   +-- matr_final_verifier.py            Independent judge/verifier
 |   +-- matr_false_negative_closer.py     V20 closed cases
 |   +-- matr_full_verification.py         Verification harness
-|   +-- analisis_articulacion.py          (V24; superseded — had set-overlap bug)
+|   +-- analisis_articulacion.py          V25: set-overlap bug FIXED (disjoint sets; now detects traps)
 |   +-- matr_repair_exhaustive_small.py   V25: exhaustive obstruction search n<=7
 |   +-- matr_repair_hard_families.py      V25: faithful repair on hard families
 |   +-- matr_repair_generalized_moves.py  V25: flip graph, move levels N1/N2/N3

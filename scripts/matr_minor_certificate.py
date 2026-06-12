@@ -30,9 +30,10 @@ DIFERENCIA CLAVE vs Script 6:
 
   PREGUNTA QUE RESPONDE:
              Con la construccion corregida, el grafo contraido es
-             K_k COMPLETO para todo grafo conexo simple?
-             SI -> Theorem 8.7 y Corollary 8.8 correctos.
-             NO -> paper necesita reformulacion.
+             K_k COMPLETO (mitad de ADYACENCIA) para todo grafo conexo?
+             OJO (V25): esto verifica SOLO adyacencia. La conectividad
+             interna de los branch sets NO se logra en general (Sec. 6
+             del paper: refutada exhaustivamente, Conjetura del Flip).
 
 Investigador : Mizael Antonio Tovar Reyes
 Ubicacion    : Ciudad Juarez, Chihuahua, Mexico
@@ -129,18 +130,18 @@ def missing_pairs(contracted, colors):
 
 def build_branch_sets_v3(G, coloring, chi):
     """
-    Fase 1 — B_i = A_i (clases de color puras).
+    Fase 1 — B_i = A_i (clases de color puras, particion disjunta).
 
-    Fase 2 — BFS repair CORREGIDO:
-             Conectar vertices aislados dentro de cada B_i usando
-             SOLO vertices libres (no asignados a ninguna clase).
-             FIX vs Script 6: antes absorbia vertices de otras clases,
-             destruyendo aristas reales en el grafo contraido.
-
-    Fase 3 — Repair de pares sin arista directa:
+    Fase 3 — Repair de pares sin arista directa (ADYACENCIA):
              Para cada par (Bi, Bj) sin arista en el grafo contraido,
              mueve un vertice para crearla, verificando que el set
              donante sigue siendo conexo.
+
+    HONESTIDAD (V25): este script verifica SOLO la mitad de ADYACENCIA
+    (grafo contraido K_k-completo). NO repara ni verifica conectividad
+    interna de los branch sets — eso es el contenido de la Seccion 6
+    del paper (refutacion + Conjetura del Flip). La antigua "Fase 2"
+    era codigo muerto y fue eliminada sin cambio de comportamiento.
     """
     classes = {}
     for v, c in coloring.items():
@@ -149,48 +150,15 @@ def build_branch_sets_v3(G, coloring, chi):
     if len(colors) != chi:
         return None, None, 0, False
 
-    # FASE 1
+    # FASE 1 — B_i = A_i (clases de color puras, particion disjunta)
     branch_sets = {c: set(classes[c]) for c in colors}
 
-    # vertices asignados a alguna clase — intocables para el BFS de otro color
-    all_class_nodes = set()
-    for c in colors:
-        all_class_nodes |= classes[c]
-
-    # vertices libres — no pertenecen a ninguna clase de color
-    free_nodes = set(G.nodes()) - all_class_nodes
-
-    # FASE 2 — BFS corregido: solo absorbe vertices libres
-    for c in colors:
-        class_nodes = list(classes[c])
-        if not class_nodes:
-            continue
-        center = max(class_nodes, key=lambda v: G.degree(v))
-
-        # componente conexa de la clase pura
-        component = {center}
-        q = deque([center])
-        while q:
-            v = q.popleft()
-            for u in G.neighbors(v):
-                if u not in component and u in classes[c]:
-                    component.add(u)
-                    q.append(u)
-
-        isolated = classes[c] - component
-        for iso in isolated:
-            # camino que solo usa nodos de esta clase O nodos libres
-            allowed = classes[c] | free_nodes
-            subG = G.subgraph(allowed)
-            try:
-                path = nx.shortest_path(subG, center, iso)
-                for pv in path:
-                    branch_sets[c].add(pv)
-                    free_nodes.discard(pv)
-            except (nx.NetworkXNoPath, nx.NodeNotFound):
-                # no hay camino sin pasar por otros colores
-                # Fase 3 se encargara
-                pass
+    # NOTA V25: la antigua "Fase 2" (BFS sobre vertices libres) era codigo
+    # muerto: una coloracion asigna color a TODO vertice, asi que el
+    # conjunto de vertices libres siempre era vacio y el BFS jamas hacia
+    # nada. Eliminada — el comportamiento es identico al de siempre.
+    # La conectividad interna NO se repara aqui; ver Sec. 6 del paper y
+    # matr_repair_exhaustive_small.py / matr_flip_conjecture_large.py.
 
     # FASE 3 — reparar pares sin arista directa
     iters_used = 0
@@ -333,8 +301,8 @@ def main():
     print("  PREGUNTA: con la construccion corregida, el grafo contraido")
     print("  es K_k COMPLETO para todo grafo conexo simple?")
     print()
-    print("  SI (0 gaps) -> Theorem 8.7 correcto -> paper listo para arXiv.")
-    print("  NO          -> reportar grafos que fallan.")
+    print("  OJO: esto verifica SOLO la mitad de ADYACENCIA del certificado.")
+    print("  La conectividad interna NO se verifica aqui (Sec. 6 del paper).")
     print()
 
     print("Generando grafos de prueba...")
@@ -425,10 +393,10 @@ def main():
         print(f"  Total gaps restantes          : {total_gaps}")
         print("  ─────────────────────────────────────────────────────────────────")
         if fail_count == 0 and total_gaps == 0:
-            print("  ✅  K_k MINOR COMPLETO — 0 gaps en todos los grafos")
-            print("      Bug de Fase 2 corregido. Construccion valida.")
-            print("      Theorem 8.7 y Corollary 8.8 verificados.")
-            print("      El paper puede ir a arXiv.")
+            print("  ✅  ADYACENCIA COMPLETA — 0 gaps en todos los grafos")
+            print("      (grafo contraido K_k-completo: mitad de adyacencia")
+            print("      del certificado. La conectividad interna se estudia")
+            print("      en la Sec. 6 del paper y los scripts 11-14.)")
         else:
             print(f"  ⚠️   {fail_count} grafos sin K_k completo:")
             for r in failed_graphs[:10]:

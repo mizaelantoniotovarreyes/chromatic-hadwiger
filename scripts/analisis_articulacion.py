@@ -1,13 +1,26 @@
 """
-ANALISIS: ¿Cuándo todos los vecinos son puntos de articulación?
+ANALISIS: ¿Cuándo todos los vecinos son puntos de articulación? — V25 (FIX)
 Mizael Antonio Tovar Reyes — Ciudad Juárez, 2026
 CON PROGRESO EN VIVO para PowerShell
+
+BUG CORREGIDO EN V25 (2026-06-12):
+  La version anterior "reparaba" clases desconectadas agregando los
+  vertices de un shortest_path SIN quitarlos de su set original ->
+  los branch sets quedaban TRASLAPADOS (no disjuntos). El resultado
+  "0 trampas en 344 grafos" reportado en el paper V24 Sec. 5.3 era un
+  artefacto de ese bug y queda RETIRADO.
+
+  FIX: los branch sets son ahora exactamente las clases de color
+  (la Fase 1 fiel del paper, disjunta por construccion), y la trampa
+  se analiza sobre ese estado. Con la construccion fiel, las trampas
+  SI ocurren (Mycielski M4, todos los Kneser K(n,2) n=5..10; ver
+  matr_repair_hard_families.py y matr_repair_exhaustive_small.py,
+  que ademas exploran todas las secuencias de movimientos).
 """
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from collections import deque
 import networkx as nx
 
 try:
@@ -17,35 +30,18 @@ except ImportError:
     sys.exit(1)
 
 
-def build_branch_sets_fase1_2(G, coloring, chi):
+def build_branch_sets_fase1(G, coloring, chi):
+    """
+    FASE 1 FIEL al paper (V25): B_i = A_i, las clases de color puras.
+    Particion disjunta por construccion. (La version anterior agregaba
+    vertices de shortest_path sin quitarlos de su set original,
+    rompiendo la disyuncion — corregido.)
+    """
     classes = {}
     for v, c in coloring.items():
         classes.setdefault(c, set()).add(v)
     colors = sorted(classes.keys())
     branch_sets = {c: set(classes[c]) for c in colors}
-
-    for c in colors:
-        class_nodes = list(classes[c])
-        if not class_nodes:
-            continue
-        center = max(class_nodes, key=lambda v: G.degree(v))
-        component = {center}
-        q = deque([center])
-        while q:
-            v = q.popleft()
-            for u in G.neighbors(v):
-                if u not in component and u in classes[c]:
-                    component.add(u)
-                    q.append(u)
-        isolated = classes[c] - component
-        for iso in isolated:
-            try:
-                path = nx.shortest_path(G, center, iso)
-                for pv in path:
-                    branch_sets[c].add(pv)
-            except nx.NetworkXNoPath:
-                pass
-
     return branch_sets, colors
 
 
@@ -122,7 +118,7 @@ def main():
         if coloring is None:
             continue
 
-        branch_sets, colors = build_branch_sets_fase1_2(G, coloring, chi)
+        branch_sets, colors = build_branch_sets_fase1(G, coloring, chi)
         total += 1
 
         for c in colors:
@@ -153,16 +149,15 @@ def main():
     print(f"  Trampas encontradas      : {traps_found}")
     print()
     if traps_found == 0:
-        print("  RESULTADO: NINGUNA TRAMPA ENCONTRADA")
+        print("  RESULTADO: ninguna trampa en ESTA muestra.")
         print()
-        print("  En todos los grafos probados, cuando un grupo")
-        print("  esta desconectado, SIEMPRE existe al menos un")
-        print("  vecino frontera que NO es punto de articulacion.")
-        print()
-        print("  Esto sugiere que la trampa es IMPOSIBLE.")
-        print("  Si puedes probar por que, Hadwiger esta resuelto.")
+        print("  OJO (V25): las trampas SI existen — ocurren en Mycielski M4,")
+        print("  en todos los Kneser K(n,2) n=5..10 y en regulares ralos")
+        print("  (ver matr_repair_hard_families.py). Cero aqui solo significa")
+        print("  que esta muestra aleatoria no las contiene.")
     else:
-        print(f"  Se encontraron {traps_found} trampas — revisar arriba.")
+        print(f"  Se encontraron {traps_found} trampas — consistente con V25")
+        print("  (la trampa de articulacion es real; ver Sec. 6 del paper).")
     print("=" * 60)
     sys.stdout.flush()
 
