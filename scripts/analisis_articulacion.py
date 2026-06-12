@@ -13,9 +13,11 @@ BUG CORREGIDO EN V25 (2026-06-12):
   FIX: los branch sets son ahora exactamente las clases de color
   (la Fase 1 fiel del paper, disjunta por construccion), y la trampa
   se analiza sobre ese estado. Con la construccion fiel, las trampas
-  SI ocurren (Mycielski M4, todos los Kneser K(n,2) n=5..10; ver
-  matr_repair_hard_families.py y matr_repair_exhaustive_small.py,
-  que ademas exploran todas las secuencias de movimientos).
+  SI ocurren: 196 en los mismos 344 grafos del protocolo original
+  (Mycielski M4, todos los Kneser K(n,2) n=5..10, regulares ralos).
+  El estudio completo (refutacion exhaustiva n<=7, taxonomia de
+  trampas, Conjetura del Flip) vive en su propio repositorio:
+  github.com/mizaelantoniotovarreyes/flip-conjecture
 """
 import sys
 from pathlib import Path
@@ -153,8 +155,8 @@ def main():
         print()
         print("  OJO (V25): las trampas SI existen — ocurren en Mycielski M4,")
         print("  en todos los Kneser K(n,2) n=5..10 y en regulares ralos")
-        print("  (ver matr_repair_hard_families.py). Cero aqui solo significa")
-        print("  que esta muestra aleatoria no las contiene.")
+        print("  (repo flip-conjecture). Cero aqui solo significa que esta")
+        print("  muestra aleatoria no las contiene.")
     else:
         print(f"  Se encontraron {traps_found} trampas — consistente con V25")
         print("  (la trampa de articulacion es real; ver Sec. 6 del paper).")

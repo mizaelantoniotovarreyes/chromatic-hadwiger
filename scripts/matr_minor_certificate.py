@@ -158,7 +158,7 @@ def build_branch_sets_v3(G, coloring, chi):
     # conjunto de vertices libres siempre era vacio y el BFS jamas hacia
     # nada. Eliminada — el comportamiento es identico al de siempre.
     # La conectividad interna NO se repara aqui; ver Sec. 6 del paper y
-    # matr_repair_exhaustive_small.py / matr_flip_conjecture_large.py.
+    # el repo flip-conjecture (proyecto CONJETURA_FLIP_COMPLETO).
 
     # FASE 3 — reparar pares sin arista directa
     iters_used = 0
@@ -396,7 +396,7 @@ def main():
             print("  ✅  ADYACENCIA COMPLETA — 0 gaps en todos los grafos")
             print("      (grafo contraido K_k-completo: mitad de adyacencia")
             print("      del certificado. La conectividad interna se estudia")
-            print("      en la Sec. 6 del paper y los scripts 11-14.)")
+            print("      en la Sec. 6 del paper y el repo flip-conjecture.)")
         else:
             print(f"  ⚠️   {fail_count} grafos sin K_k completo:")
             for r in failed_graphs[:10]:

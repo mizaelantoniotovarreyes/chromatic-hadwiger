@@ -31,10 +31,12 @@ close it and does not claim to.**
 
 ## V25 Computational Findings (June 2026) — what is NEW
 
-The V25 scripts (11–14) implement the repair phase **exactly as written in
-the paper (§4.1, conditions (a)/(b)/(c) checked per move, sets always
-disjoint)** and then study what move repertoire actually suffices. Three
-findings, each reproducible from this repo:
+The V25 research implements the repair phase **exactly as written in the
+paper (§4.1, conditions (a)/(b)/(c) checked per move, sets always
+disjoint)** and then studies what move repertoire actually suffices.
+**The V25 scripts and logs live in their own repository:**
+**github.com/mizaelantoniotovarreyes/flip-conjecture** (this repo keeps the
+Patio Lemma / adjacency verification suite). Summary of the three findings:
 
 ### Finding 1 — The §4.1 repair phase is provably insufficient
 Exhaustive search over **all 994 connected graphs with n ≤ 7** (networkx
@@ -65,10 +67,11 @@ untouched and remains equivalent to Hadwiger's conjecture.
 ### Finding 2 — The articulation trap is real (correcting paper §5.3)
 The paper reported "no articulation traps in 344 graphs". That run used an
 earlier construction with a set-overlap bug (branch sets were not kept
-disjoint). With the faithful disjoint construction, **articulation traps
-(T_B) occur already in Mycielski M₄ (n = 11)** and in **every Kneser graph
-K(n,2), n = 5..10** tested. Section 5.3 of the paper should be corrected
-in the next version.
+disjoint; fixed in `analisis_articulacion.py` in this repo). Re-running the
+**same 344-graph protocol with disjoint sets finds 196 traps**
+(`logs/log_analisis_articulacion_v25.txt`), and traps occur already in
+Mycielski M₄ (n = 11) and in every Kneser graph K(n,2), n = 5..10. Section
+5.3 of the paper is corrected in V25.
 
 ### Finding 3 — The Flip Conjecture (new)
 If the move set is enlarged to **arbitrary single-vertex transfers** that
@@ -106,9 +109,9 @@ be hunted computationally.
 | **Theorem 3.4: Patio Adjacency Lemma** ★ | **PROVED + verified, 130,000+ graphs, 0 failures** | matr_hadwiger_theorem |
 | Adjacency half of branch-set construction | Verified (562 graphs) | matr_minor_certificate |
 | Connectivity of branch sets | **NOT achieved in general** (12/84 in re-audit) | — |
-| §4.1 repair phase sufficiency | **DISPROVED — minimal counterexample P₃** (V25) | matr_repair_exhaustive_small |
-| Articulation trap exists? | **YES — Mycielski M₄, all Kneser K(n,2)** (V25; corrects §5.3) | matr_repair_hard_families |
-| **Flip Conjecture** (new) | **Exhaustive n ≤ 7: 5,425/5,425 + 35/35 hard large graphs** | matr_repair_generalized_moves, matr_flip_conjecture_large |
+| §4.1 repair phase sufficiency | **DISPROVED — minimal counterexample P₃** (V25) | flip-conjecture repo |
+| Articulation trap exists? | **YES — 196/344 graphs; Mycielski M₄, all Kneser** (V25; corrects §5.3) | analisis_articulacion + flip-conjecture repo |
+| **Flip Conjecture** (new) | **Exhaustive n ≤ 7: 5,425/5,425 + 35/35 hard large graphs** | flip-conjecture repo |
 | Open Problem 6.1 (partition form) | **OPEN — equivalent to Hadwiger, k ≥ 7** | — |
 
 ★ Main original contribution of the paper.
@@ -136,15 +139,10 @@ chromatic-hadwiger/
 |   +-- matr_final_verifier.py            Independent judge/verifier
 |   +-- matr_false_negative_closer.py     V20 closed cases
 |   +-- matr_full_verification.py         Verification harness
-|   +-- analisis_articulacion.py          V25: set-overlap bug FIXED (disjoint sets; now detects traps)
-|   +-- matr_repair_exhaustive_small.py   V25: exhaustive obstruction search n<=7
-|   +-- matr_repair_hard_families.py      V25: faithful repair on hard families
-|   +-- matr_repair_generalized_moves.py  V25: flip graph, move levels N1/N2/N3
-|   +-- matr_flip_conjecture_large.py     V25: Flip Conjecture on large graphs
+|   +-- analisis_articulacion.py          V25: set-overlap bug FIXED (disjoint sets; finds 196/344 traps)
 |
 +-- logs/                                 All runs (autosaved, reproducible seeds)
-|   +-- obstrucciones_n7.json             V25: all minimal obstructions, n<=7
-|   +-- certificados_flip_large.json      V25: verified flip certificates
+|   +-- log_analisis_articulacion_v25.txt V25: 196 traps in the 344-graph protocol
 |
 +-- Conjecture/                           Paper versions and proofs
 +-- visual/                               Interactive visualizations (INDEX.html)
@@ -159,18 +157,12 @@ chromatic-hadwiger/
 pip install -r requirements.txt
 ```
 
-V25 findings (fast — minutes on a normal PC):
+Verification suite (Patio Lemma, adjacency, articulation): scripts 1–10 +
+`analisis_articulacion.py`, see headers of each `matr_*.py`.
 
-```bash
-cd scripts
-python matr_repair_exhaustive_small.py    # Finding 1: exhaustive n<=7
-python matr_repair_hard_families.py       # Finding 2: traps in hard families
-python matr_repair_generalized_moves.py   # Finding 3: flip levels N1/N2/N3
-python matr_flip_conjecture_large.py      # Finding 3: large-graph certificates
-```
-
-Original verification suite (Patio Lemma etc.): scripts 1–10 as in V23,
-see headers of each `matr_*.py`.
+V25 findings (repair refutation, trap taxonomy, Flip Conjecture) are
+reproduced from their own repository:
+**github.com/mizaelantoniotovarreyes/flip-conjecture**.
 
 ---
 
