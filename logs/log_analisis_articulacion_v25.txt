@@ -1,0 +1,1848 @@
+============================================================
+  ANALISIS: Trampa de puntos de articulacion?
+============================================================
+  Cargando grafos...
+  Total grafos cargados: 362
+  Procesando...
+
+  TRAMPA en [Aleatorios] Random_n5_s22  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s48  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  [10/362] procesados... trampas: 2
+  TRAMPA en [Aleatorios] Random_n5_s138  chi=4
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s147  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s176  chi=4
+     Grupo 2 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s181  chi=4
+     Grupo 2 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s219  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s230  chi=4
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n5_s277  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  [20/362] procesados... trampas: 9
+  TRAMPA en [Aleatorios] Random_n6_s39  chi=5
+     Grupo 3 desconectado
+     Razon: sin vecinos frontera
+  TRAMPA en [Aleatorios] Random_n6_s103  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3]
+  TRAMPA en [Aleatorios] Random_n6_s144  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n6_s244  chi=3
+     Grupo 1 desconectado
+     Razon: sin vecinos frontera
+  [30/362] procesados... trampas: 13
+  TRAMPA en [Aleatorios] Random_n6_s270  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3]
+  TRAMPA en [Ciclos_impares] C_7  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  TRAMPA en [Ciclos_impares] C_7  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  TRAMPA en [Wheels] W_7  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  TRAMPA en [Wheels] W_7  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s5  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s12  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4]
+  [40/362] procesados... trampas: 18
+  TRAMPA en [Aleatorios] Random_n7_s83  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s143  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s182  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s182  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n7_s185  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3]
+  [50/362] procesados... trampas: 22
+  TRAMPA en [Aleatorios] Random_n7_s284  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4]
+  TRAMPA en [Wheels] W_8  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  TRAMPA en [Wheels] W_8  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s1  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s6  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s24  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s24  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3]
+  [60/362] procesados... trampas: 27
+  TRAMPA en [Aleatorios] Random_n8_s41  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s69  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n8_s114  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n8_s120  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n8_s126  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s126  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n8_s131  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s165  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3]
+  [70/362] procesados... trampas: 34
+  TRAMPA en [Aleatorios] Random_n8_s210  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n8_s210  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Ciclos_impares] C_9  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Ciclos_impares] C_9  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Wheels] W_9  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Wheels] W_9  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4]
+  [80/362] procesados... trampas: 37
+  TRAMPA en [Aleatorios] Random_n9_s100  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s100  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s100  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s132  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s132  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s132  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s140  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s140  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n9_s231  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 3, 4, 3, 3]
+  [90/362] procesados... trampas: 41
+  TRAMPA en [Aleatorios] Random_n9_s245  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n9_s245  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n9_s261  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n9_s267  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4]
+  TRAMPA en [Especiales] Petersen  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 4, 3, 4, 3, 4]
+  TRAMPA en [Especiales] Petersen  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Especiales] Petersen  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 3, 4, 4]
+  TRAMPA en [Kneser] Kneser_K(5,2)  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(5,2)  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(5,2)  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n10_s71  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n10_s71  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n10_s71  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  [100/362] procesados... trampas: 47
+  TRAMPA en [Aleatorios] Random_n10_s77  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n10_s81  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 4, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n10_s87  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n10_s87  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n10_s162  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 5, 5, 3, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n10_s168  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n10_s198  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 3]
+  [110/362] procesados... trampas: 53
+  TRAMPA en [Aleatorios] Random_n10_s272  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 3, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n10_s272  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 3, 4, 4, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n10_s272  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n10_s274  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 4, 3, 4, 3, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n10_s274  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 3, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n10_s274  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n10_s286  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 3, 5, 5, 3, 5, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n10_s288  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 3, 3, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n10_s297  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Ciclos_impares] C_11  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Ciclos_impares] C_11  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Mycielski] Mycielski_M4  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4]
+  [120/362] procesados... trampas: 60
+  TRAMPA en [Aleatorios] Random_n11_s36  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s36  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 3, 5, 5, 5, 3, 3, 5, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n11_s36  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 3, 5, 5, 5, 3, 5, 5, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n11_s51  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n11_s51  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 3, 3, 4, 4, 3, 4, 3, 3, 4, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n11_s51  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 4, 3, 3, 4, 4, 3, 4, 4, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s63  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 3, 4, 4, 3, 3, 4, 3, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s63  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s63  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s72  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 4, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n11_s72  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s72  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n11_s79  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s79  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 3, 4, 4, 3, 3, 3, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n11_s79  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 3, 4, 4, 3, 3, 4, 3, 4, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n11_s90  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 4, 4, 5, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n11_s96  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 3, 4, 4, 4, 4, 3, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n11_s96  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 4, 4, 4, 4, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n11_s96  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4]
+  [130/362] procesados... trampas: 67
+  TRAMPA en [Aleatorios] Random_n11_s172  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 3, 6, 3, 6, 3, 6]
+  TRAMPA en [Aleatorios] Random_n11_s183  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s216  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n11_s259  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n11_s259  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6]
+  TRAMPA en [Aleatorios] Random_n11_s266  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 5, 4, 4, 5, 4]
+  [140/362] procesados... trampas: 72
+  TRAMPA en [Aleatorios] Random_n11_s298  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Poliedros] Icosaedro  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Poliedros] Icosaedro  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Poliedros] Icosaedro  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Poliedros] Icosaedro  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n12_s113  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+  TRAMPA en [Aleatorios] Random_n12_s113  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n12_s149  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3]
+  [150/362] procesados... trampas: 76
+  TRAMPA en [Aleatorios] Random_n12_s189  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n12_s260  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 3, 5, 5, 5, 3, 5, 5, 3, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n12_s260  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 5, 3, 5, 3, 5, 5, 3, 5, 5, 5, 5, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n12_s260  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Ciclos_impares] C_13  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  TRAMPA en [Ciclos_impares] C_13  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  [160/362] procesados... trampas: 79
+  TRAMPA en [Aleatorios] Random_n13_s42  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n13_s53  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n13_s101  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n13_s101  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 6, 6, 3, 6, 6, 3, 3, 6, 6, 3, 6]
+  TRAMPA en [Aleatorios] Random_n13_s101  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 3, 6, 6, 3, 6, 6, 3, 6, 3, 6, 3]
+  TRAMPA en [Aleatorios] Random_n13_s106  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 4, 4, 3, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n13_s109  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 4, 7, 7, 7, 4, 7, 7]
+  [170/362] procesados... trampas: 84
+  TRAMPA en [Aleatorios] Random_n13_s111  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 4, 3, 3, 3, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n13_s145  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n13_s154  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 5, 5, 5, 3, 3, 3, 5, 3, 5, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n13_s164  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n13_s164  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 5, 4, 4, 5, 4, 5, 5, 4, 4, 5, 5, 5, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n13_s164  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 5, 4, 5, 4, 4, 4, 5, 4, 5, 4, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n13_s208  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 5, 5, 3, 5, 5, 5, 3, 5, 5, 5, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n13_s208  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 3, 3, 4, 4, 3, 3, 4, 4, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n13_s208  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 4, 4, 5, 4, 4, 4, 5, 5]
+  TRAMPA en [Aleatorios] Random_n13_s220  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 4, 3, 3, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n13_s225  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 3, 5, 5, 5, 3, 3, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n13_s227  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 4, 3, 4]
+  [180/362] procesados... trampas: 92
+  TRAMPA en [Aleatorios] Random_n13_s242  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 5, 5, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n13_s282  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 3, 5, 3, 3, 3, 5, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n14_s14  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 4, 5, 5, 4, 4, 4, 5, 4, 4, 4, 5, 5, 5, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n14_s14  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s14  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 4, 5, 4, 4, 5, 4, 4, 5, 5, 4, 4, 4, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n14_s30  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 3, 5, 5, 3, 3, 5, 5, 3, 3, 3, 5, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n14_s59  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 4, 4, 5, 5, 4, 4, 5, 4, 5, 5, 4, 5, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n14_s59  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n14_s59  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 5, 4, 5, 4, 4, 5, 5, 4, 5, 5, 4, 4, 5, 5]
+  [190/362] procesados... trampas: 97
+  TRAMPA en [Aleatorios] Random_n14_s61  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n14_s68  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 4, 5, 4, 5, 4, 5, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s124  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 3, 4, 4, 3, 3, 4, 3, 3, 4, 3, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n14_s124  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s124  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 3, 4, 3, 4, 4, 3, 4, 3, 3, 4, 3, 4, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s158  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 3, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 4, 3, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n14_s158  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3, 3, 4, 3, 3, 4, 4, 4, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n14_s158  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n14_s158  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s173  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 4, 3, 4, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n14_s174  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 3, 4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n14_s174  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n14_s174  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n14_s174  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n14_s186  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  [200/362] procesados... trampas: 104
+  TRAMPA en [Aleatorios] Random_n14_s193  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n14_s193  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 3, 4, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n14_s193  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n14_s193  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4]
+  TRAMPA en [Kneser] Kneser_K(6,2)  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(6,2)  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 3, 3, 5, 5, 5, 3, 3, 3, 5, 5, 5, 3, 3, 3, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(6,2)  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 4, 4, 3, 5, 5, 5, 4, 4, 3, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(6,2)  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 4, 4, 3, 5, 5, 5, 4, 4, 3, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Circulantes] Circ_15_2  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_15_2  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_15_2  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_15_3  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_3  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_3  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_3  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_3  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_4  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_4  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_4  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_4  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_15_4  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s55  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 4, 3, 3, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3]
+  [210/362] procesados... trampas: 110
+  TRAMPA en [Aleatorios] Random_n15_s92  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 3, 5, 3, 3, 5, 5, 3, 5, 5, 3, 5, 3, 5, 3, 3, 3, 5, 5, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s92  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 3, 4, 3, 4, 4, 4, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s92  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 3, 5, 3, 4, 3, 4, 5, 4, 5, 3, 5, 3, 5, 4, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s92  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 3, 5, 4, 5, 3, 4, 5, 4, 3, 4, 5, 5, 5, 3, 5, 4, 3, 5, 5, 5, 5, 3, 5, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s108  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n15_s118  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n15_s129  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 4, 6, 4, 4, 4, 6, 6, 6, 4, 4, 4, 4, 6, 4, 6, 4, 4, 6, 6, 6, 4, 4, 6]
+  TRAMPA en [Aleatorios] Random_n15_s129  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n15_s129  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 6, 6, 6, 4, 4, 4, 6, 4, 4, 6, 4, 4, 6, 4, 6, 4, 6, 6, 4, 6, 4, 4]
+  TRAMPA en [Aleatorios] Random_n15_s142  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 5, 5, 5, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n15_s146  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n15_s146  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 5, 5, 4, 4, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n15_s146  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 4, 5, 4, 4, 5, 5, 5, 5, 4, 5, 5, 4, 4, 5, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n15_s184  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 3, 3, 3, 5, 3, 5, 5, 5, 5, 3, 3, 3, 5, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s184  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s184  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 5, 3, 5, 3, 3, 3, 3, 5, 5, 3, 3, 3, 3, 5, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s184  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 5, 3, 3, 3, 3, 3, 5, 3, 3, 5, 3, 3, 5, 5, 5, 3, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n15_s196  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 3, 4, 3, 3, 4, 4, 4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s196  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 5, 4, 3, 3, 4, 5, 5, 4, 5, 4, 3, 5, 4, 3, 3, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n15_s196  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 3, 3, 5, 3, 3, 5, 3, 3, 3, 5, 5, 5, 3, 3, 3, 3, 3, 3, 5, 3, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n15_s196  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 4, 4, 4, 5, 5, 3, 3, 4, 4, 3, 5, 5, 5, 4, 4, 4, 3, 5]
+  [220/362] procesados... trampas: 118
+  TRAMPA en [Aleatorios] Random_n15_s206  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 3, 3, 4, 3, 4, 3, 3, 4, 4, 3, 4, 3, 3, 3, 4, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n15_s206  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 5, 3, 3, 5, 5, 3, 5, 3, 3, 5, 3, 5, 3, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n15_s206  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 4, 5, 3, 4, 4, 5, 3, 3, 5, 5, 4, 4, 3, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n15_s206  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 5, 3, 5, 5, 5, 4, 3, 5, 3, 4, 5, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n15_s217  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n15_s217  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 4, 3, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s217  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 4, 3, 4, 4, 3, 4, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s217  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n15_s240  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 5, 3, 5, 4, 3, 4, 3, 5, 5, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s254  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 5, 4, 3, 3, 4, 5, 4, 4, 5, 3, 4, 3, 5, 5, 5, 3, 4, 5]
+  TRAMPA en [Aleatorios] Random_n15_s254  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 5, 3, 3, 5, 3, 5, 5, 3, 5, 3, 3, 3, 3, 3, 5, 3, 3, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n15_s254  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 4, 3, 3, 3, 3, 4, 3, 3, 4, 3, 3, 4, 3, 4, 3, 3, 4, 3, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n15_s254  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 5, 4, 5, 5, 3, 4, 5, 3, 5, 4, 5, 4, 5, 5, 4, 3, 4, 5, 3]
+  TRAMPA en [Aleatorios] Random_n15_s264  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 4, 3, 4, 4, 4, 3, 3, 3, 3, 3, 4, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n15_s264  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n15_s264  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 4, 4, 4, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n15_s264  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 3, 3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 3, 4, 3, 3]
+  [230/362] procesados... trampas: 123
+  TRAMPA en [Aleatorios] Random_n15_s280  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 5, 4, 5, 4, 5, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n16_s15  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 5, 3, 3, 3, 5, 5, 3, 5, 3, 3, 5, 3, 5, 3, 5, 5, 3, 5, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n16_s15  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 4, 4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3, 4, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n16_s15  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 3, 5, 5, 3, 4, 5, 5, 3, 4, 5, 4, 4, 5, 3, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s15  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 5, 5, 3, 3, 4, 4, 5, 3, 5, 4, 3, 3, 4, 5, 4, 3]
+  TRAMPA en [Aleatorios] Random_n16_s46  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 4, 4, 6, 4, 4, 6, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s54  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n16_s54  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n16_s54  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s54  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s65  chi=7
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s94  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 4, 3, 3, 4, 4, 3, 4, 3, 3, 3, 3, 3, 4, 3, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n16_s115  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 5, 3, 3, 5, 3, 3, 3, 5, 3]
+  [240/362] procesados... trampas: 130
+  TRAMPA en [Aleatorios] Random_n16_s122  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 3, 4, 7, 4, 3, 7, 3, 4, 4, 7]
+  TRAMPA en [Aleatorios] Random_n16_s163  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n16_s187  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s187  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s187  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 4, 4, 3, 3, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s187  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s187  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 4, 3, 3, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s191  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 4, 3, 3, 4, 4, 3, 3, 4, 4, 4, 3, 4, 4, 3, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s191  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 3, 4, 5, 4, 3, 4, 3, 4, 5, 4, 3, 4, 4, 5, 5, 4, 5, 5, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s191  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 3, 4, 5, 5, 4, 4, 5, 4, 4, 3, 5, 3, 3, 4, 5, 5, 4, 5, 4, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n16_s191  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 4, 4, 4, 4, 4, 5, 4, 4, 5, 4, 5, 5, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s201  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s201  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s201  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s201  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s228  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 4, 4, 5, 5, 5, 4, 5, 4, 3, 5, 4, 3, 4, 5, 4, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n16_s228  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n16_s228  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 4, 3, 3, 4, 5, 3, 5, 3, 4, 4, 5, 5, 4, 5, 3, 4, 5, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n16_s228  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 5, 5, 5, 5, 4, 4, 5, 4, 5, 4, 4, 5, 4, 4]
+  TRAMPA en [Aleatorios] Random_n16_s246  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 3, 4, 3, 4, 7, 7, 4, 3, 4, 3, 7, 7, 7, 7]
+  [250/362] procesados... trampas: 137
+  TRAMPA en [Circulantes] Circ_17_2  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_17_3  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_17_3  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_17_3  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_17_3  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_17_4  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n17_s32  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 3, 3, 3, 3, 5, 5, 3, 3, 3, 3, 5, 3, 3, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n17_s135  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 4, 3, 5, 3, 3, 3, 5, 3, 4, 5, 4, 4, 5, 3, 3, 3]
+  [260/362] procesados... trampas: 142
+  TRAMPA en [Aleatorios] Random_n17_s167  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 5, 3, 3, 3, 3, 3, 3, 5, 3, 3, 3, 3, 5, 5, 3, 3, 5, 3, 5, 3, 5, 3, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n17_s167  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n17_s167  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 3, 3, 3, 5, 3, 5, 3, 3, 3, 3, 5, 5, 5, 3, 3, 3, 3, 5, 3, 3, 3, 5, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n17_s167  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 5, 3, 5, 5, 5, 3, 3, 3, 5, 3, 5, 5, 3, 3, 5, 5, 3, 3, 5, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n17_s167  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 3, 5, 3, 5, 3, 5, 5, 3, 3, 3, 3, 5, 3, 3, 3, 5, 3, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n17_s170  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 6, 6, 4, 6, 6, 4, 6, 3, 6, 6, 4, 4, 6, 3, 3, 3, 6, 6, 4, 4, 6, 3, 6, 6, 4, 6, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s170  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 4, 3, 3, 4, 4, 4, 4, 4, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s170  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 6, 6, 4, 4, 4, 6, 6, 6, 4, 6, 4, 4, 4, 6, 4, 6, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s170  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 4, 3, 3, 6, 6, 6, 4, 4, 4, 3, 3, 6, 4, 4, 3, 6, 3, 6, 6, 4, 4, 3, 4, 3, 6, 6, 6]
+  TRAMPA en [Aleatorios] Random_n17_s175  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 3, 3, 3, 5, 5, 4, 4, 3, 3, 5, 4, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n17_s202  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 4, 5, 5, 6, 5, 5, 4, 6, 6, 6, 6, 4, 6, 4, 5, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n17_s212  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s212  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 3, 6, 4, 4, 6, 6, 4, 6, 6, 6, 3, 4, 3, 6, 6, 6, 3, 6, 3, 4]
+  TRAMPA en [Aleatorios] Random_n17_s212  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 4, 6, 4, 4, 6, 6, 4, 4, 6, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s212  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 3, 6, 4, 6, 6, 4, 6, 6, 3, 6, 6, 6, 4, 3, 3, 3, 4, 6, 3, 4]
+  TRAMPA en [Aleatorios] Random_n17_s249  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 4, 3, 4, 4, 3, 3, 4, 3, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s249  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 3, 3, 4, 4, 3, 3, 4, 3, 3, 3, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s249  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 3, 3, 3, 4, 4, 4, 3, 4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s249  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 3, 4, 3, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 3, 4, 3, 3, 3, 4, 4, 3, 3, 4, 3, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n17_s249  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 3, 3, 4, 4, 3, 3, 4, 4, 3, 3, 4, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4]
+  [270/362] procesados... trampas: 148
+  TRAMPA en [Aleatorios] Random_n18_s16  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 4, 4, 3, 4, 5, 4, 5, 3, 4, 5, 4, 5, 4, 3, 5, 3, 5, 5, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n18_s16  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 6, 3, 4, 3, 6, 6, 3, 4, 3, 4, 6, 3, 6, 4, 6, 4, 3, 6, 4, 3, 3, 4, 6, 6, 4]
+  TRAMPA en [Aleatorios] Random_n18_s16  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 5, 5, 3, 5, 3, 6, 5, 6, 3, 6, 3, 6, 6, 5, 5, 6, 3, 6, 3, 6, 6, 5, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n18_s16  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 6, 4, 4, 4, 6, 5, 5, 4, 4, 6, 4, 5, 5, 4, 5, 6, 6, 5]
+  TRAMPA en [Aleatorios] Random_n18_s18  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 3, 4, 3, 3, 3, 4, 3, 3, 4, 3, 4, 3, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 3, 3, 4, 4, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n18_s18  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 3, 4, 4, 3, 4, 3, 3, 3, 4, 3, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n18_s18  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 3, 3, 4, 4, 4, 4, 3, 3, 4, 3, 3, 4, 4, 4, 4, 4, 3, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s18  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 3, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s18  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 3, 4, 3, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n18_s25  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s25  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s25  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 4, 4, 3, 3, 3, 4, 4, 4, 4, 4, 3, 4, 3, 3, 4, 4, 4, 3, 3, 3, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s25  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 4, 4, 4, 3, 3, 3, 4, 4, 4, 3, 4, 4, 3, 3, 4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s25  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 3, 4, 3, 4, 4, 4, 3, 4, 4, 3, 4, 3, 4, 4, 4, 3, 3, 3, 4, 4, 3, 3, 4, 4, 3, 3, 4, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s82  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s86  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 4, 4, 4, 3, 5, 5, 5, 4, 4, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n18_s102  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 6, 6, 4, 3, 3, 4, 3, 3, 4, 6, 4, 3, 6, 4, 3, 3, 3]
+  [280/362] procesados... trampas: 154
+  TRAMPA en [Aleatorios] Random_n18_s127  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 5, 3, 5, 3, 5, 4, 4, 3, 3, 3, 5, 5, 5, 3, 5, 4, 3, 3, 4, 5, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n18_s127  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 5, 3, 5, 5, 3, 3, 3, 3, 3, 5, 3, 3, 3, 3, 3, 5, 3, 3, 5, 3, 3, 5, 5, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n18_s127  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 4, 3, 4, 5, 5, 3, 5, 3, 4, 4, 5, 3, 4, 5, 3, 3, 3, 4, 3, 5, 3, 4, 5]
+  TRAMPA en [Aleatorios] Random_n18_s127  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 3, 5, 5, 3, 3, 3, 4, 3, 3, 5, 4, 5, 5, 5, 3, 3, 4, 3, 5, 5, 4, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n18_s127  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 3, 3, 4, 3, 4, 3, 3, 4, 3, 4, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3, 4, 3, 3, 4, 3, 3, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s136  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 3, 3, 4, 4, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 4, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s159  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5, 4, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 4, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n18_s159  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 4, 4, 5, 4, 4, 5, 4, 4, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n18_s159  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 5, 5, 5, 5, 4, 5, 5, 4, 5, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n18_s159  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 4, 4, 4, 5, 4, 5, 5, 5, 4, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 5, 4]
+  TRAMPA en [Aleatorios] Random_n18_s161  chi=7
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 3, 3, 4, 4, 4, 3, 4, 4, 3, 4, 3, 4, 4, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s195  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 3, 3, 3, 3, 3, 5, 5, 3, 3, 5, 3, 3, 3, 3, 5, 3, 5, 5, 3, 5, 5, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s195  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 3, 4, 3, 4, 3, 3, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 4, 3, 3, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n18_s195  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 5, 3, 5, 3, 3, 3, 4, 4, 5, 4, 4, 5, 5, 3, 5, 3, 3, 3, 4, 4, 5, 3, 5, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n18_s195  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 5, 3, 3, 4, 4, 5, 3, 5, 5, 3, 3, 4, 4, 5, 3, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n18_s195  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 5, 3, 5, 5, 3, 4, 4, 5, 5, 3, 3, 3, 3, 4, 4, 5, 3, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n18_s279  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 3, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n18_s279  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 5, 3, 3, 5, 5, 5, 5, 5, 3, 5, 3, 5, 3, 5, 5, 5, 5, 5, 3, 5, 5, 3, 5, 5, 5, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s279  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 3, 5, 5, 5, 5, 3, 3, 5, 5, 5, 5, 5, 3, 5, 5, 5, 3, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n18_s279  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n18_s285  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 4, 3, 4, 4, 4, 3, 3, 4, 4, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s285  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 3, 4, 4, 3, 3, 4, 4, 4, 3, 3, 3, 4, 3, 4, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n18_s285  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 4, 4, 4, 3, 3, 3, 4, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n18_s285  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n18_s285  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n18_s289  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Circulantes] Circ_19_2  chi=4
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  TRAMPA en [Circulantes] Circ_19_2  chi=4
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  TRAMPA en [Circulantes] Circ_19_2  chi=4
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+  [290/362] procesados... trampas: 163
+  TRAMPA en [Circulantes] Circ_19_3  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 4]
+  TRAMPA en [Circulantes] Circ_19_3  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Circulantes] Circ_19_3  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_19_3  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 3]
+  TRAMPA en [Circulantes] Circ_19_3  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n19_s70  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 4, 4, 4, 3, 3, 4, 4, 3, 3, 3, 3, 4, 4, 3, 4, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s116  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3, 4, 3, 4, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s119  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 3, 4, 3, 3, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 3, 4, 3, 3, 3, 4, 4, 3, 3, 3, 4, 3, 3, 3, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 4, 4, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 3, 3, 4, 3, 3, 3, 3, 3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s156  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3]
+  [300/362] procesados... trampas: 168
+  !! Timeout chromatic_exact (n=19), usando upper bound=9
+  TRAMPA en [Aleatorios] Random_n19_s199  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 4, 4, 4, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n19_s203  chi=7
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 4, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3, 4, 4, 3, 3, 3, 4, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s207  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 3, 4, 3, 4, 5, 5, 3, 3, 5, 5, 5, 3, 3, 5, 4, 4, 3, 3, 4, 4, 3, 3, 5, 5, 4, 3, 3, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s207  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 3, 3, 4, 3, 4, 4, 3, 3, 3, 4, 3, 3, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n19_s207  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 5, 3, 3, 3, 4, 5, 3, 3, 3, 3, 5, 3, 4, 4, 5, 5, 4, 5, 3, 4, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n19_s207  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 4, 3, 4, 4, 4, 5, 4, 5, 4, 5, 3, 3, 4, 5, 4, 4, 5, 3, 4, 5, 3]
+  TRAMPA en [Aleatorios] Random_n19_s207  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 5, 4, 3, 3, 4, 4, 4, 5, 5, 4, 4, 4, 3, 4, 4, 5, 5, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n19_s211  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 4, 4, 4, 4, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 4, 4, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n19_s247  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 5, 5, 4, 4, 4, 4, 3, 3, 5, 5, 5, 4, 4, 4, 3, 5, 5, 4, 4, 5, 4, 4]
+  TRAMPA en [Aleatorios] Random_n19_s247  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 5, 5, 4, 4, 3, 4, 4, 4, 4, 4, 3, 3, 5, 5, 5, 5, 4, 4, 4, 4, 4, 5, 4, 4, 5, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n19_s247  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 4, 3, 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 4, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n19_s247  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 5, 5, 5, 4, 4, 3, 3, 3, 3, 5, 4, 4, 3, 3, 3, 3, 4, 5, 3, 4, 5, 3, 3, 3, 3, 5, 4, 5, 4, 5, 4]
+  TRAMPA en [Aleatorios] Random_n19_s247  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 5, 3, 5, 5, 4, 5, 3, 4, 3, 3, 3, 5, 5, 5, 4, 4, 3, 3, 3, 5, 4, 3, 5, 4, 3, 5, 3, 5, 5, 5, 5, 4, 4, 4]
+  [310/362] procesados... trampas: 173
+  TRAMPA en [Aleatorios] Random_n20_s19  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 3, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n20_s19  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 4, 4, 3, 3, 4, 4, 5, 5, 5, 4, 4, 3, 4, 5, 5, 4, 4, 4, 5, 4, 3, 4, 5, 5, 4, 4, 5, 4, 4, 4, 3, 4, 4]
+  TRAMPA en [Aleatorios] Random_n20_s19  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 4, 4, 4, 3, 5, 3, 4, 5, 5, 4, 4, 4, 5, 3, 5, 3, 4, 5, 4, 4, 4, 4, 4, 3, 4, 3, 4, 5, 5, 4, 4, 4, 4, 5, 3, 3, 5]
+  TRAMPA en [Aleatorios] Random_n20_s19  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 4, 5, 4, 5, 4, 3, 5, 3, 5, 4, 5, 4, 4, 4, 5, 4, 4, 3, 3, 4, 4, 5, 4, 4, 3, 3, 4, 5, 5, 5, 4, 4, 3, 4, 5]
+  TRAMPA en [Aleatorios] Random_n20_s19  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 4, 4, 4, 5, 4, 5, 4, 4, 4, 4, 4, 5, 4, 4, 4, 5, 5, 4, 4, 5, 4, 5, 4, 4, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n20_s26  chi=7
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n20_s35  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 4, 4, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 3, 3, 3, 4, 3, 4, 3, 3, 4, 3, 3, 3, 4, 3, 4, 3, 3, 3, 3, 4, 4, 3, 4, 3, 3, 3, 4, 3, 4, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 3, 3, 4, 3, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 4, 4, 3, 4, 4, 3, 3, 3, 3, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 3, 3, 3, 4, 3, 3, 4, 3, 3, 3, 3, 3, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 4, 4, 3, 3, 4, 3, 4, 3, 4, 3, 3, 3, 3, 3, 3, 3, 4, 3, 4, 4, 4, 4]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 4, 3, 3, 3, 3, 4, 3, 4, 3, 3, 4, 4, 3, 3, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s37  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 3, 3, 4, 4, 3, 4, 3, 3, 4, 4, 3, 4, 3, 4, 3, 3, 4, 4, 4, 4, 3, 3, 4, 4, 3, 3, 3, 4, 3, 4, 4, 4, 3]
+  !! Timeout chromatic_exact (n=20), usando upper bound=9
+  TRAMPA en [Aleatorios] Random_n20_s58  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 4, 4, 3, 4, 3, 3, 3, 4, 4, 4, 4, 4, 3, 3, 4, 4, 4, 3, 4, 3, 4, 4]
+  [320/362] procesados... trampas: 178
+  TRAMPA en [Aleatorios] Random_n20_s67  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 5, 3, 3, 3, 3, 5, 5, 3, 4, 4, 3, 3, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n20_s88  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 4, 5, 3, 5, 5, 5, 3, 4, 4, 5, 5, 4, 5, 5, 3, 4, 3, 5, 5, 5, 5, 3, 5, 4, 5, 3, 4, 3, 5, 5, 5, 5, 5]
+  TRAMPA en [Aleatorios] Random_n20_s88  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 3, 5, 5, 5, 5, 3, 3, 5, 5, 5, 3, 5, 5, 5, 5, 5, 3, 3, 5, 3, 3, 3, 3, 3, 3, 5, 5, 5, 3, 3, 5, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n20_s88  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 3, 3, 5, 5, 3, 4, 3, 5, 5, 3, 5, 5, 3, 4, 5, 3, 3, 5, 3, 4, 3, 5, 4, 5, 3, 3, 5, 5, 4, 4, 5, 4, 5, 3, 3, 5, 3]
+  TRAMPA en [Aleatorios] Random_n20_s88  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 3, 5, 4, 5, 3, 5, 5, 3, 5, 3, 3, 4, 3, 5, 5, 3, 4, 3, 5, 4, 3, 5, 5, 3, 5, 3, 4, 4, 3, 5, 4, 5, 3, 4, 3, 5, 5, 3, 4, 4, 3, 4, 3, 3, 5, 3, 3]
+  TRAMPA en [Aleatorios] Random_n20_s88  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [3, 4, 4, 3, 5, 4, 5, 5, 5, 3, 5, 4, 5, 4, 5, 3, 5, 5, 3, 4, 3, 5, 4, 5, 5, 4, 5, 3, 5, 5]
+  TRAMPA en [Aleatorios] Random_n20_s141  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 4, 4, 4, 3, 4, 4, 3, 3, 4, 4, 4, 4, 4, 3, 4]
+  TRAMPA en [Aleatorios] Random_n20_s188  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 3, 4, 5, 4, 3, 4, 3, 4, 4, 4, 5, 3, 4, 5, 4, 4, 3, 5, 4, 4, 5, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s188  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 5, 4, 3, 4, 4, 5, 4, 4, 3, 4, 4, 4, 3, 4, 3, 4, 4, 5, 4, 4, 4, 5, 3, 4, 5, 5]
+  TRAMPA en [Aleatorios] Random_n20_s188  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 3, 3, 4, 4, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s188  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 5, 4, 5, 3, 3, 4, 4, 5, 4, 5, 4, 4, 4, 4, 5, 4, 5, 3, 5, 5, 3, 4, 4, 4, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n20_s188  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 4, 4, 4, 4, 4, 5, 4, 4, 5, 4, 5, 4, 5, 4, 4, 5, 4, 4, 4, 5, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n20_s197  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 5, 3, 4, 4, 4, 5, 3, 5, 4, 4, 4, 5, 3, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 3, 4, 3, 5, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n20_s197  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 5, 4, 4, 4, 5, 4, 4, 5, 3, 5, 4, 5, 3, 5, 4, 4, 5, 3, 5, 3, 4, 4, 5, 3, 5, 4, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s197  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 5, 5, 4, 5, 4, 3, 5, 3, 4, 4, 3, 4, 5, 4, 5, 3, 4, 4, 4, 5, 3, 5, 5, 4, 3, 5, 3, 5, 4, 5, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s197  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 3, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s197  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 5, 4, 4, 5, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 5, 5, 4, 4, 5, 4, 4, 5]
+  TRAMPA en [Aleatorios] Random_n20_s223  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 3, 5, 4, 5, 3, 3, 4, 4, 3, 3, 5, 5, 4, 5, 3, 3, 4, 4, 5, 3, 3, 5, 5, 3, 3, 4, 5, 3, 5, 4, 4, 5, 3, 3, 3, 3, 4, 3, 3]
+  TRAMPA en [Aleatorios] Random_n20_s223  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 3, 3, 5, 3, 5, 3, 3, 5, 5, 5, 5, 3, 5, 5, 3, 3, 5, 5, 3, 5, 3, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Aleatorios] Random_n20_s223  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 4, 3, 5, 3, 5, 3, 4, 3, 5, 4, 5, 3, 5, 4, 4, 3, 5, 4, 3, 3, 3, 5, 5, 4, 3, 5, 5, 3, 4, 3, 4, 5, 3, 4, 3]
+  TRAMPA en [Aleatorios] Random_n20_s223  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 3, 5, 5, 4, 5, 5, 3, 5, 4, 5, 5, 5, 3, 5, 3, 5, 4, 4, 5, 4, 3, 5, 4, 4, 5, 5, 3]
+  TRAMPA en [Aleatorios] Random_n20_s223  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 4, 5, 5, 5, 5, 5, 3, 3, 5, 5, 3, 5, 4, 4, 5, 3, 5, 4, 5, 3, 5, 5, 5, 5, 4, 5, 3]
+  [330/362] procesados... trampas: 184
+  TRAMPA en [Aleatorios] Random_n20_s263  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 3, 3, 6, 6, 6, 3, 6, 3, 6, 6, 3, 6, 3]
+  TRAMPA en [Aleatorios] Random_n20_s287  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 3, 5, 5, 3, 5, 5, 5, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 3, 5, 5, 5, 5, 3, 5, 5, 5, 3, 3, 3, 5, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n20_s287  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 5, 5, 3, 5, 3, 5, 3, 4, 5, 5, 4, 4, 4, 3, 5, 3, 5, 3, 5, 5, 4, 3, 5, 3, 5, 3, 3, 3, 5, 4, 3, 5, 3, 5, 3, 3, 3, 3, 4]
+  TRAMPA en [Aleatorios] Random_n20_s287  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 5, 5, 3, 3, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 4, 3, 5, 5, 5, 4, 5, 4, 4, 5, 5, 5, 3, 5]
+  TRAMPA en [Aleatorios] Random_n20_s287  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 5, 3, 5, 3, 4, 3, 4, 5, 4, 5, 3, 5, 3, 3, 5, 3, 5, 4, 5, 3, 5, 4, 3, 3, 5, 4, 3, 3, 3, 5, 5, 4, 5, 4, 5, 3, 4, 3, 5, 4, 5]
+  TRAMPA en [Aleatorios] Random_n20_s287  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 3, 5, 5, 5, 3, 5, 5, 4, 4, 5, 5, 3, 5, 4, 5, 4, 4, 5, 5, 3, 5, 5, 5, 4]
+  TRAMPA en [Aleatorios] Random_n20_s293  chi=4
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 7, 6, 5, 7, 6, 6, 7, 7, 7, 6, 5, 5, 7, 7]
+  TRAMPA en [Kneser] Kneser_K(7,2)  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(7,2)  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 3, 3, 3, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(7,2)  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(7,2)  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(7,2)  chi=5
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Circulantes] Circ_21_2  chi=3
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+  TRAMPA en [Circulantes] Circ_21_2  chi=3
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+  TRAMPA en [Circulantes] Circ_21_2  chi=3
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+  TRAMPA en [Circulantes] Circ_21_3  chi=5
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_21_3  chi=5
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_21_3  chi=5
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_21_3  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  TRAMPA en [Circulantes] Circ_21_4  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_21_4  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_21_4  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_21_4  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Circulantes] Circ_21_4  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+  TRAMPA en [Mycielski] Mycielski_M5  chi=5
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 4, 8, 8, 8, 8, 4, 8, 8, 8, 8, 4]
+  [340/362] procesados... trampas: 192
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(8,2)  chi=6
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  !! Timeout chromatic_exact (n=36), usando upper bound=7
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(9,2)  chi=7
+     Grupo 7 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  !! Timeout chromatic_exact (n=45), usando upper bound=8
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 1 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 8, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 2 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 3 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 6, 6, 6, 6, 6, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 4 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 3, 3, 3, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 4, 4, 4, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 6 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 3, 3, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 7 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  TRAMPA en [Kneser] Kneser_K(10,2)  chi=8
+     Grupo 8 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 6, 6, 6, 6, 5, 5, 5, 4, 4, 3]
+  !! Timeout chromatic_exact (n=47), usando upper bound=6
+  TRAMPA en [Mycielski] Mycielski_M6  chi=6
+     Grupo 5 desconectado
+     Razon: TODOS los vecinos son puntos de articulacion
+     Tamanos donantes: [16, 16, 16, 16, 8, 16, 16, 16, 16, 8, 4, 16, 16, 16, 16, 8, 16, 16, 16, 16, 8, 4, 16, 16, 16, 16, 8, 16, 16, 16, 16, 8, 4]
+
+============================================================
+  Grafos analizados        : 344
+  Grupos desconectados     : 1344
+  Trampas encontradas      : 196
+
+  Se encontraron 196 trampas — consistente con V25
+  (la trampa de articulacion es real; ver Sec. 6 del paper).
+============================================================
