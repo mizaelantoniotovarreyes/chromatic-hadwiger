@@ -1,0 +1,81 @@
+SCRIPT 12 — FAMILIAS DURAS — V25
+Investigador : Mizael Antonio Tovar Reyes
+Fecha        : 2026-06-12 09:37:07
+Reinicios    : 60 | Semilla: 2026
+
+  [EXITO ] Mycielski_M3             n=5    chi=3   clases_desc=2   movs=1    intentos=1
+  [ATORADO] Mycielski_M4             n=11   chi=4   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Mycielski_M5             n=23   chi=5   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Mycielski_M6             n=47   chi=6   clases_desc=5   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Mycielski_M7             n=95   chi=7   clases_desc=6   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(5,2)            n=10   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(6,2)            n=15   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(7,2)            n=21   chi=5   clases_desc=5   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(8,2)            n=28   chi=6   clases_desc=6   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(9,2)            n=36   chi=7   clases_desc=7   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Kneser_K(10,2)           n=45   chi=8   clases_desc=8   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n14_s0        n=14   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n14_s1        n=14   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n14_s2        n=14   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n20_s0        n=20   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n20_s1        n=20   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_3r_n20_s2        n=20   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n15_s0        n=15   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n15_s1        n=15   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n15_s2        n=15   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n21_s0        n=21   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n21_s1        n=21   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_4r_n21_s2        n=21   chi=3   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n16_s0        n=16   chi=4   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n16_s1        n=16   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n16_s2        n=16   chi=4   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n22_s0        n=22   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n22_s1        n=22   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_5r_n22_s2        n=22   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_6r_n17_s0        n=17   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_6r_n17_s1        n=17   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] Regular_6r_n17_s2        n=17   chi=4   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n14_chi5_t1          n=14   chi=5   clases_desc=5   movs=6    intentos=1
+  [EXITO ] GNP_n16_chi5_t2          n=16   chi=5   clases_desc=5   movs=7    intentos=3
+  [ATORADO] GNP_n14_chi5_t3          n=14   chi=5   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n16_chi7_t4          n=16   chi=7   clases_desc=7   movs=6    intentos=1
+  [ATORADO] GNP_n11_chi5_t6          n=11   chi=5   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n19_chi8_t7          n=19   chi=8   clases_desc=7   movs=5    intentos=1
+  [EXITO ] GNP_n20_chi8_t8          n=20   chi=8   clases_desc=8   movs=9    intentos=1
+  [EXITO ] GNP_n20_chi9_t9          n=20   chi=9   clases_desc=9   movs=6    intentos=1
+  [EXITO ] GNP_n15_chi5_t10         n=15   chi=5   clases_desc=5   movs=6    intentos=2
+  [EXITO ] GNP_n22_chi6_t11         n=22   chi=6   clases_desc=6   movs=7    intentos=1
+  [EXITO ] GNP_n12_chi6_t12         n=12   chi=6   clases_desc=4   movs=4    intentos=1
+  [EXITO ] GNP_n19_chi8_t13         n=19   chi=8   clases_desc=6   movs=7    intentos=1
+  [ATORADO] GNP_n16_chi5_t14         n=16   chi=5   clases_desc=5   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n22_chi7_t15         n=22   chi=7   clases_desc=7   movs=8    intentos=1
+  [EXITO ] GNP_n14_chi7_t16         n=14   chi=7   clases_desc=6   movs=4    intentos=1
+  [EXITO ] GNP_n18_chi6_t17         n=18   chi=6   clases_desc=6   movs=6    intentos=1
+  [EXITO ] GNP_n20_chi8_t18         n=20   chi=8   clases_desc=8   movs=6    intentos=1
+  [EXITO ] GNP_n21_chi6_t19         n=21   chi=6   clases_desc=6   movs=8    intentos=1
+  [EXITO ] GNP_n12_chi9_t20         n=12   chi=9   clases_desc=3   movs=2    intentos=1
+  [ATORADO] GNP_n22_chi6_t21         n=22   chi=6   clases_desc=6   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [ATORADO] GNP_n14_chi5_t22         n=14   chi=5   clases_desc=4   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n14_chi5_t24         n=14   chi=5   clases_desc=5   movs=6    intentos=1
+  [EXITO ] GNP_n17_chi5_t25         n=17   chi=5   clases_desc=5   movs=7    intentos=3
+  [EXITO ] GNP_n17_chi5_t26         n=17   chi=5   clases_desc=5   movs=7    intentos=3
+  [EXITO ] GNP_n14_chi7_t27         n=14   chi=7   clases_desc=4   movs=4    intentos=1
+  [EXITO ] GNP_n18_chi8_t28         n=18   chi=8   clases_desc=6   movs=7    intentos=1
+  [EXITO ] GNP_n13_chi6_t29         n=13   chi=6   clases_desc=5   movs=3    intentos=1
+  [EXITO ] GNP_n22_chi9_t30         n=22   chi=9   clases_desc=8   movs=9    intentos=1
+  [EXITO ] GNP_n14_chi7_t31         n=14   chi=7   clases_desc=6   movs=4    intentos=1
+  [EXITO ] GNP_n20_chi6_t32         n=20   chi=6   clases_desc=6   movs=7    intentos=1
+  [EXITO ] GNP_n20_chi6_t33         n=20   chi=6   clases_desc=6   movs=8    intentos=1
+  [EXITO ] GNP_n20_chi7_t34         n=20   chi=7   clases_desc=7   movs=8    intentos=1
+  [EXITO ] GNP_n10_chi6_t35         n=10   chi=6   clases_desc=4   movs=3    intentos=1
+  [EXITO ] GNP_n14_chi7_t36         n=14   chi=7   clases_desc=5   movs=4    intentos=4
+  [EXITO ] GNP_n20_chi9_t37         n=20   chi=9   clases_desc=9   movs=5    intentos=1
+  [EXITO ] GNP_n22_chi8_t38         n=22   chi=8   clases_desc=8   movs=7    intentos=1
+  [ATORADO] GNP_n11_chi5_t39         n=11   chi=5   clases_desc=3   60 reinicios fallaron — taxonomia={'T_B': 60}
+  [EXITO ] GNP_n13_chi8_t40         n=13   chi=8   clases_desc=5   movs=3    intentos=1
+  [EXITO ] GNP_n14_chi5_t41         n=14   chi=5   clases_desc=4   movs=3    intentos=1
+  [EXITO ] GNP_n10_chi5_t42         n=10   chi=5   clases_desc=4   movs=3    intentos=1
+
+Exitosos: 35 / 72
+Atorados: 37
+Tiempo: 11.7 min
