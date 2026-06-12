@@ -1,4 +1,4 @@
-# A Patio Adjacency Lemma for Greedy Colorings — V23
+# A Patio Adjacency Lemma for Greedy Colorings — V24 (paper) / V25 (code)
 ### by Mizael Antonio Tovar Reyes — Ciudad Juárez, Chihuahua, México
 
 ---
@@ -10,219 +10,202 @@ associated with the following paper:
 
 > **"A Patio Adjacency Lemma for Greedy Colorings, with Computational Evidence
 > Toward Branch-Set Connectivity"**
-> — Mizael Antonio Tovar Reyes, April 2026
+> — Mizael Antonio Tovar Reyes, Version 24, 2026
+> DOI (V24): [10.5281/zenodo.20478975](https://doi.org/10.5281/zenodo.20478975)
+> DOI (all versions): [10.5281/zenodo.19262568](https://doi.org/10.5281/zenodo.19262568)
 
-The central new result is:
+The central proved result is:
 
 > **Theorem 3.4 (Patio Adjacency Lemma):** Let G be a connected simple graph
-> with optimal greedy palette-expansion coloring achieving χ(G) = k, with
-> expansion centers c₁,...,cₖ. For every pair of colors i < j, there exists a
-> vertex u ∈ Aᵢ such that (u, cⱼ) ∈ E(G). Consequently, there is always a
-> direct edge between Aᵢ and Aⱼ in G.
+> with an ordering attaining p(G), with expansion centers c₁,...,cₖ. For every
+> pair of colors i < j, cⱼ has a neighbor in color class Aᵢ. Consequently,
+> every pair of color classes is joined by a direct edge.
 
-The approach is based on:
+Built on the identity **χ(G) = 1 + p(G)** (Proposition 3.1 — essentially
+folklore; the novelty is the constructive packaging via expansion centers).
 
-> **χ(G) = 1 + p(G)**  (Proposition 3.1)
-
-where p(G) is the **palette expansion** of G. This characterization is essentially
-folklore; the novelty is the constructive packaging via expansion centers.
-
-**Hadwiger's conjecture for k ≥ 7 remains open.** The open problem (connectivity
-of branch sets when F(0) = ∅) is stated precisely as Open Problem 6.1.
+**Hadwiger's conjecture for k ≥ 7 remains open. This repository does not
+close it and does not claim to.**
 
 ---
 
-## Key Contributions
+## V25 Computational Findings (June 2026) — what is NEW
+
+The V25 scripts (11–14) implement the repair phase **exactly as written in
+the paper (§4.1, conditions (a)/(b)/(c) checked per move, sets always
+disjoint)** and then study what move repertoire actually suffices. Three
+findings, each reproducible from this repo:
+
+### Finding 1 — The §4.1 repair phase is provably insufficient
+Exhaustive search over **all 994 connected graphs with n ≤ 7** (networkx
+Graph Atlas), **all optimal colorings** of each (5,425 graph–coloring pairs),
+and **all possible move sequences** (memoized DFS; the potential Φ of
+Lemma 4.3 bounds the depth):
+
+| Outcome | Pairs |
+|---|---|
+| Repair succeeds (some sequence connects all sets) | 1,905 |
+| Repair dead-ends under **every** sequence | 3,520 |
+| Graphs where **every** optimal coloring dead-ends | 366 of 994 |
+
+The **minimal counterexample is P₃** (path on 3 vertices): coloring
+{0},{1,2} — the only repair candidate is the center, and moving it empties
+its set (violates (b)). Stuck states classify into a taxonomy:
+**T_A** (no candidate at all), **T_B** (all candidates are articulation
+points of their donor — the paper's "articulation trap"), **T_C** (all
+candidates would break pairwise adjacency — an obstruction **not named in
+the paper**), and T_MIX. Counts on n ≤ 7: T_A=392, T_B=2,667, T_C=364,
+T_MIX=1,231.
+
+This answers the **constructive half of Open Problem 6.1 negatively**: an
+adjacency-preserving connectivity move does **not** always exist. The
+partition form of Open Problem 6.1 (does the partition *exist*?) is
+untouched and remains equivalent to Hadwiger's conjecture.
+
+### Finding 2 — The articulation trap is real (correcting paper §5.3)
+The paper reported "no articulation traps in 344 graphs". That run used an
+earlier construction with a set-overlap bug (branch sets were not kept
+disjoint). With the faithful disjoint construction, **articulation traps
+(T_B) occur already in Mycielski M₄ (n = 11)** and in **every Kneser graph
+K(n,2), n = 5..10** tested. Section 5.3 of the paper should be corrected
+in the next version.
+
+### Finding 3 — The Flip Conjecture (new)
+If the move set is enlarged to **arbitrary single-vertex transfers** that
+only preserve (i) k non-empty sets and (ii) pairwise adjacency — the
+"flip graph" of adjacent partitions — then a fully connected partition
+**was reached in every single case tested**:
+
+- **Exhaustive (n ≤ 7):** all 5,425 graph–coloring pairs reachable. 0 failures.
+  (1,905 already reachable with paper moves; 470 more with relaxed donors;
+  3,050 need general flips.)
+- **Hard large graphs (heuristic + verified certificates):** 35/35 successes,
+  including Mycielski M₇ (n=95, k=7), Kneser K(10,2) (n=45, k=8), random
+  regular graphs, trees, grids, hypercube — each solved in 5–18 flips, with
+  the full flip sequence saved and independently re-verified
+  (`logs/certificados_flip_large.json`).
+
+> **Flip Conjecture.** For every connected simple graph G with χ(G) = k and
+> every optimal coloring, the flip graph of pairwise-adjacent k-partitions
+> contains a path from the coloring partition to a partition whose classes
+> are all connected.
+
+The Flip Conjecture **implies Hadwiger's conjecture** (so it is at least as
+hard); whether it is equivalent is open. Its value is the new, finite,
+local object it offers: every counterexample to Hadwiger must contain a
+flip-graph component with no connected-partition state — something that can
+be hunted computationally.
+
+---
+
+## Key Results Table (honest status)
 
 | Result | Status | Script |
 |---|---|---|
-| Proposition 3.1: χ(G) = 1 + p(G) | VERIFIED — 562 graphs, 0 failures, 129.3 min | matr_chromatic_identity |
-| Lemma 2: Chromatic Completeness | VERIFIED — 562 graphs, 0 failures | matr_completeness_lemma |
-| **Theorem 3.4: Patio Adjacency Lemma** ★ | **PROVED + VERIFIED — 130,000+ graphs, 0 failures** | matr_hadwiger_theorem |
-| Exact Graph Families | VERIFIED — 66/66 families | matr_exact_families |
-| Lemma 8.3d: Distributed Absorption | VERIFIED — 562 graphs, 0 failures | matr_branch_absorption |
-| Lemma 4.4: Alternating Connector (conditional) | VERIFIED — Case A=5417, Case B=177, GAP=0 | matr_alternating_connector |
-| K_k Minor Completeness | VERIFIED — 562 graphs, 0 failures | matr_minor_certificate |
-| Hadwiger high-chi solver | 562 graphs tested | matr_high_chi_solver |
-| Judge/Verifier (Lemmas 8.3c–f) | PRODUCTION READY | matr_final_verifier |
-| V20: 5 false-negatives closed | PROVED — 5/5, 0 counterexamples | matr_false_negative_closer |
-| **Open Problem 6.1: Branch-set connectivity** | **OPEN — k ≥ 7** | — |
+| Proposition 3.1: χ(G) = 1 + p(G) | PROVED (short) + sanity-checked | matr_chromatic_identity |
+| **Theorem 3.4: Patio Adjacency Lemma** ★ | **PROVED + verified, 130,000+ graphs, 0 failures** | matr_hadwiger_theorem |
+| Adjacency half of branch-set construction | Verified (562 graphs) | matr_minor_certificate |
+| Connectivity of branch sets | **NOT achieved in general** (12/84 in re-audit) | — |
+| §4.1 repair phase sufficiency | **DISPROVED — minimal counterexample P₃** (V25) | matr_repair_exhaustive_small |
+| Articulation trap exists? | **YES — Mycielski M₄, all Kneser K(n,2)** (V25; corrects §5.3) | matr_repair_hard_families |
+| **Flip Conjecture** (new) | **Exhaustive n ≤ 7: 5,425/5,425 + 35/35 hard large graphs** | matr_repair_generalized_moves, matr_flip_conjecture_large |
+| Open Problem 6.1 (partition form) | **OPEN — equivalent to Hadwiger, k ≥ 7** | — |
 
-★ The Patio Adjacency Lemma is the main original contribution of this work.
+★ Main original contribution of the paper.
+Note: `p(G) = χ(G) − 1` is a theorem, so V25 scripts obtain optimal
+orderings deterministically (order any optimal coloring by classes) instead
+of random search.
 
 ---
 
 ## Repository Structure
 
 ```
-mizaeltovarreyes-chromatic-hadwiger/
+chromatic-hadwiger/
 |
 +-- scripts/
-|   +-- core_utils.py                     Shared library: graph generation, coloring, logging
-|   +-- matr_chromatic_identity.py        Proposition 3.1: chi(G) = 1 + p(G)
-|   +-- matr_completeness_lemma.py        Lemma 2: Chromatic Completeness
-|   +-- matr_hadwiger_theorem.py          Theorem 3.4 + gap detection
+|   +-- core_utils.py                     Shared library (graphs, coloring, logging)
+|   +-- matr_chromatic_identity.py        Proposition 3.1 sanity check
+|   +-- matr_completeness_lemma.py        Lemma 3.3 (color-class adjacency)
+|   +-- matr_hadwiger_theorem.py          Theorem 3.4 verification
 |   +-- matr_exact_families.py            Exact graph families
-|   +-- matr_branch_absorption.py         Lemma 8.3d: Distributed absorption
-|   +-- matr_alternating_connector.py     Lemma 4.4: Alternating connector (conditional)
-|   +-- matr_minor_certificate.py         K_k minor completeness
-|   +-- matr_high_chi_solver.py           Main Hadwiger solver (chi >= 5)
+|   +-- matr_branch_absorption.py         Absorption experiments
+|   +-- matr_alternating_connector.py     Alternating connector (conditional)
+|   +-- matr_minor_certificate.py         Adjacency half on 562 graphs
+|   +-- matr_high_chi_solver.py           High-chi runs
 |   +-- matr_final_verifier.py            Independent judge/verifier
-|   +-- matr_false_negative_closer.py     V20: Proves 5 false-negative cases
-|   +-- matr_full_verification.py         Full verification harness
+|   +-- matr_false_negative_closer.py     V20 closed cases
+|   +-- matr_full_verification.py         Verification harness
+|   +-- analisis_articulacion.py          (V24; superseded — had set-overlap bug)
+|   +-- matr_repair_exhaustive_small.py   V25: exhaustive obstruction search n<=7
+|   +-- matr_repair_hard_families.py      V25: faithful repair on hard families
+|   +-- matr_repair_generalized_moves.py  V25: flip graph, move levels N1/N2/N3
+|   +-- matr_flip_conjecture_large.py     V25: Flip Conjecture on large graphs
 |
-+-- logs/
-|   +-- log_matr_chromatic_identity.txt       500+ graphs, 129.3 min, 0 failures
-|   +-- log_matr_completeness_lemma.txt       5000+ pairs, 0 failures
-|   +-- log_matr_hadwiger_theorem.txt         Gap detection / Patio Lemma results
-|   +-- log_matr_exact_families.txt           66/66 families verified
-|   +-- log_matr_branch_absorption.txt        Absorption results
-|   +-- log_matr_minor_certificate.txt        Minor certificate results
-|   +-- log_matr_high_chi_solver.txt          High-chi solver results
-|   +-- log_matr_final_verifier.txt           Final verifier results
-|   +-- log_matr_false_negative_closer.txt    5 cases closed
-|   +-- log_matr_gap_detector.txt             Gap detector results
-|   +-- log_matr_high_chi_solver_detail.txt   Detailed chi=7/8 log
-|   +-- log_matr_final_verifier_83*_detail.txt  Detailed lemma logs
++-- logs/                                 All runs (autosaved, reproducible seeds)
+|   +-- obstrucciones_n7.json             V25: all minimal obstructions, n<=7
+|   +-- certificados_flip_large.json      V25: verified flip certificates
 |
-+-- conjecture/
-|   +-- Hadwiger_V23.docx                      Official paper (Word) — V23
-|   +-- case3b_anti_destruction_proof.md       Case 3b formal proof (V20)
-|   +-- Explained Simply.txt                   Non-technical explanation
-|   +-- CHANGELOG_V20.md                       What changed in V20
-|
-+-- visual/
-|   +-- INDEX.html                   Visual suite landing page (open in browser)
-|   +-- 01_origin_the_drawing.html   The hand-drawn sketch that started everything
-|   +-- 02_palette_expansion.html    Interactive chi = 1 + p(G) demo
-|   +-- 03_chromatic_completeness.html  Lemma 2 animated proof
-|   +-- 04_branch_sets_minor.html    Branch sets and K_k minor
-|   +-- 05_three_phases.html         Construction: three phases
-|   +-- 06_purple_connector.html     Lemma 4.4 alternating connector
-|   +-- 07_proof_chain.html          Complete proof chain (clickable)
-|   +-- Image1.png                   Original hand-drawn sketch
-|
-+-- requirements.txt
-+-- LICENSE
-+-- README.md
++-- Conjecture/                           Paper versions and proofs
++-- visual/                               Interactive visualizations (INDEX.html)
++-- requirements.txt / LICENSE / README.md
 ```
 
 ---
 
-## Installation
+## Installation & Reproducing
 
 ```bash
 pip install -r requirements.txt
 ```
 
-For GPU acceleration (optional, requires NVIDIA GPU + CUDA 12):
-```bash
-pip install cupy-cuda12x
-```
-
----
-
-## Running the Verification
-
-Run scripts in order from the `scripts/` directory:
+V25 findings (fast — minutes on a normal PC):
 
 ```bash
 cd scripts
-
-# Step 1 — Verify chi(G) = 1 + p(G)
-python matr_chromatic_identity.py
-
-# Step 2 — Verify Lemma 2 (Chromatic Completeness)
-python matr_completeness_lemma.py
-
-# Step 3 — Theorem 3.4 (Patio Adjacency Lemma) + gap detection
-python matr_hadwiger_theorem.py
-
-# Step 4 — Exact graph families
-python matr_exact_families.py
-
-# Step 5 — Lemma 8.3d (Distributed Absorption)
-python matr_branch_absorption.py
-
-# Step 6 — Lemma 4.4 (Alternating Connector)
-python matr_alternating_connector.py
-
-# Step 7 — K_k Minor Completeness
-python matr_minor_certificate.py
-
-# Step 8 — High-chi Hadwiger solver (chi >= 5)
-python matr_high_chi_solver.py
-
-# Step 9 — Independent judge/verifier
-python matr_final_verifier.py
-
-# Step 10 — Prove the 5 false-negative cases (V20)
-python matr_false_negative_closer.py
+python matr_repair_exhaustive_small.py    # Finding 1: exhaustive n<=7
+python matr_repair_hard_families.py       # Finding 2: traps in hard families
+python matr_repair_generalized_moves.py   # Finding 3: flip levels N1/N2/N3
+python matr_flip_conjecture_large.py      # Finding 3: large-graph certificates
 ```
 
-**Note:** Script 1 takes approximately 2 hours for 562 graphs.
-Scripts 2–7 each take under 45 minutes. Script 10 closes open cases automatically.
+Original verification suite (Patio Lemma etc.): scripts 1–10 as in V23,
+see headers of each `matr_*.py`.
 
 ---
 
-## V23: Summary of Changes from V20
+## Version history
 
 | Version | Key change |
 |---|---|
-| V20 | Script 10, Case 3b, 562 graphs verified, GAP=0 |
-| V21 | **Patio Adjacency Lemma introduced** (Theorem 3.4) — main new result |
-| V22 | Proof of Proposition 3.1 corrected; clear proved/open table |
-| V23 | Honest title, Proposition framing, conditional Lemma 4.4, modern references |
-
-**Open Problem 6.1:** Prove that branch sets can always be made simultaneously
-connected and pairwise disjoint for any connected simple graph G with χ(G) = k.
-This is equivalent to Hadwiger's conjecture for k ≥ 7.
-
----
-
-## Visual Explanations
-
-Open `visual/INDEX.html` in any browser for an interactive tour of the proof:
-seven animated visualizations from the original sketch to the complete proof chain.
+| V20 | 562 graphs verified, script 10 |
+| V21 | **Patio Adjacency Lemma** (Theorem 3.4) — main result |
+| V22 | Proof of Proposition 3.1 corrected |
+| V23 | Honest title and framing, conditional lemmas |
+| V24 | Published framing: adjacency half only; Open Problem 6.1 stated (DOI 10.5281/zenodo.20478975) |
+| **V25 (code)** | **Repair phase disproved (minimal: P₃); trap taxonomy T_A/T_B/T_C; §5.3 corrected; Flip Conjecture with exhaustive n≤7 verification + 35/35 large certificates** |
 
 ---
 
 ## Author
 
 **Mizael Antonio Tovar Reyes**
-Ciudad Juárez, Chihuahua, México — 2026
+Independent researcher — Ciudad Juárez, Chihuahua, México — 2026
 
 - Email: mizaelantoniotovarreyes@gmail.com
 - GitHub: github.com/mizaelantoniotovarreyes
 
-For commercial licensing inquiries, please contact the author directly.
-
----
-
 ## License
 
-This work is released under a custom Research License.
-Free for academic and personal use. Commercial use requires written permission.
-See `LICENSE` for full terms.
-
----
-
-## Preprint
-
-This work is publicly available as a preprint on Zenodo (CERN):
-
-- **DOI:** [10.5281/zenodo.19802374](https://doi.org/10.5281/zenodo.19802374)
-- **URL:** https://zenodo.org/records/19802374
-
----
+Custom Research License: free for academic and personal use; commercial use
+requires written permission. See `LICENSE`.
 
 ## Citation
 
-If you use this work, please cite:
-
 ```
 Tovar Reyes, M. A. (2026). A Patio Adjacency Lemma for Greedy Colorings,
-with Computational Evidence Toward Branch-Set Connectivity (V23).
-Zenodo. https://doi.org/10.5281/zenodo.19802374
-GitHub: github.com/mizaelantoniotovarreyes/chromatic-hadwiger
+with Computational Evidence Toward Branch-Set Connectivity (Version 24).
+Zenodo. https://doi.org/10.5281/zenodo.20478975
 ```
+
+GitHub: https://github.com/mizaelantoniotovarreyes/chromatic-hadwiger

@@ -1,0 +1,12 @@
+SCRIPT 13 — FLIP GRAPH N1/N2/N3 — V25
+Investigador : Mizael Antonio Tovar Reyes
+Fecha        : 2026-06-12 09:28:17
+
+Pares: 5425
+N1 basta: 1905
+N2 necesario: 470
+N3 necesario: 3050
+Imposibles: 0
+Overflow: 0
+Tiempo (min): 0.0
+
