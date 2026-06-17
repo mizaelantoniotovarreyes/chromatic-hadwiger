@@ -30,14 +30,16 @@ close it and does not claim to.**
 
 ---
 
-## V25 Computational Findings (June 2026) — what is NEW
+## What V25 corrected, and a separate line of work
 
-The V25 research implements the repair phase **exactly as written in the
-paper (§4.1, conditions (a)/(b)/(c) checked per move, sets always
-disjoint)** and then studies what move repertoire actually suffices.
-**The V25 scripts and logs live in their own repository:**
-**github.com/mizantorey/flip-conjecture** (this repo keeps the
-Patio Lemma / adjacency verification suite). Summary of the three findings:
+**The published V25 paper (this repository) is the Patio Adjacency Lemma only**
+— matching the Zenodo record (DOI 10.5281/zenodo.20736262). Its one substantive
+correction over V24 is **Finding 2** below (§5.3, the articulation trap).
+
+**Findings 1 and 3 — the repair-phase analysis and the Flip Conjecture — are a
+*separate* line of work** that lives in its own repository,
+**github.com/mizantorey/flip-conjecture**. They are summarized here for context
+only and are **not** part of the V25 paper (one paper = one idea).
 
 ### Finding 1 — The §4.1 repair phase is provably insufficient
 Exhaustive search over **all 994 connected graphs with n ≤ 7** (networkx
@@ -145,7 +147,7 @@ chromatic-hadwiger/
 +-- logs/                                 All runs (autosaved, reproducible seeds)
 |   +-- log_analisis_articulacion_v25.txt V25: 196 traps in the 344-graph protocol
 |
-+-- Conjecture/                           Paper versions and proofs
++-- conjecture/                           Paper (V25 PDF), changelogs and proofs
 +-- visual/                               Interactive visualizations (INDEX.html)
 +-- requirements.txt / LICENSE / README.md
 ```
@@ -176,7 +178,8 @@ reproduced from their own repository:
 | V22 | Proof of Proposition 3.1 corrected |
 | V23 | Honest title and framing, conditional lemmas |
 | V24 | Published framing: adjacency half only; Open Problem 6.1 stated (DOI 10.5281/zenodo.20478975) |
-| **V25 (code)** | **Repair phase disproved (minimal: P₃); trap taxonomy T_A/T_B/T_C; §5.3 corrected; Flip Conjecture with exhaustive n≤7 verification + 35/35 large certificates** |
+| **V25 (current)** | **§5.3 corrected — articulation trap: 196 of 344 graphs; χ(K(10,2))=8 (Lovász 1978); honest "Adjacency" table caption; k=5 attribution and references fixed (DOI 10.5281/zenodo.20736262, CC BY 4.0)** |
+| V25 (separate work) | Repair-phase analysis and the Flip Conjecture — see the `flip-conjecture` repository |
 
 ---
 
@@ -190,15 +193,18 @@ Independent researcher — Ciudad Juárez, Chihuahua, México — 2026
 
 ## License
 
-Custom Research License: free for academic and personal use; commercial use
-requires written permission. See `LICENSE`.
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** — the same license
+as the Zenodo record. Free to share and adapt, including commercially, with
+attribution. See `LICENSE`.
 
 ## Citation
 
 ```
 Tovar Reyes, M. A. (2026). A Patio Adjacency Lemma for Greedy Colorings,
-with Computational Evidence Toward Branch-Set Connectivity (Version 24).
-Zenodo. https://doi.org/10.5281/zenodo.20478975
+with Computational Evidence Toward Branch-Set Connectivity (Version 25).
+Zenodo. https://doi.org/10.5281/zenodo.20736262
 ```
 
-GitHub: https://github.com/mizantorey/chromatic-hadwiger
+- Zenodo (this version): https://zenodo.org/records/20736262
+- Zenodo (all versions): https://doi.org/10.5281/zenodo.19262568
+- GitHub: https://github.com/mizantorey/chromatic-hadwiger
