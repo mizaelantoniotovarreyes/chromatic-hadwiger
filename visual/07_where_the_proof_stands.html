@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where the Proof Stands — Patio Adjacency Lemma — Mizael Antonio Tovar Reyes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#04040e; --surface:#0d0d1f; --card:#111128; --border:#1e1e4a;
+    --accent:#6c63ff; --accent2:#a78bfa; --gold:#f59e0b;
+    --green:#34d399; --teal:#22d3ee; --red:#f87171; --amber:#fbbf24;
+    --text:#e2e8f0; --muted:#94a3b8; --dim:#475569;
+  }
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;min-height:100vh;line-height:1.65}
+  .wrap{max-width:920px;margin:0 auto;padding:0 24px}
+  header{text-align:center;padding:64px 24px 36px;background:linear-gradient(180deg,#0a0a20 0%,transparent 100%)}
+  .badge{display:inline-block;background:linear-gradient(135deg,#1e1e4a,#2a1a5e);border:1px solid var(--accent);color:var(--accent2);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:6px 18px;border-radius:20px;margin-bottom:24px}
+  h1{font-size:clamp(28px,5vw,48px);font-weight:700;line-height:1.15;margin-bottom:10px;background:linear-gradient(135deg,#fff,var(--accent2) 55%,var(--teal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .formula{font-family:'JetBrains Mono',monospace;font-size:clamp(17px,3vw,24px);color:var(--gold);margin:14px 0;text-shadow:0 0 30px rgba(245,158,11,.35)}
+  .subtitle{font-size:15px;color:var(--muted);max-width:600px;margin:6px auto 0}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:26px 28px;margin:20px 0;border-left:5px solid var(--edge,var(--accent))}
+  .panel.proved{--edge:var(--green)}
+  .panel.kept{--edge:var(--teal)}
+  .panel.open{--edge:var(--amber)}
+  .panel.honest{--edge:var(--accent2)}
+  .panel h2{font-size:19px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  .panel h2 .chip{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 10px;border-radius:20px;background:color-mix(in srgb,var(--edge) 16%,transparent);color:var(--edge);border:1px solid color-mix(in srgb,var(--edge) 35%,transparent)}
+  .panel ul{list-style:none;margin:12px 0 0}
+  .panel li{position:relative;padding:6px 0 6px 26px;color:var(--text);font-size:14.5px}
+  .panel li::before{content:'';position:absolute;left:4px;top:13px;width:8px;height:8px;border-radius:50%;background:var(--edge)}
+  .panel li b{color:#fff}
+  .plain{margin-top:14px;background:var(--surface);border:1px dashed var(--border);border-radius:10px;padding:12px 14px;font-size:13.5px;color:var(--muted)}
+  .plain b{color:var(--accent2)}
+  .mono{font-family:'JetBrains Mono',monospace;color:var(--gold);font-size:13px}
+  .stat-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px}
+  .mini{flex:1;min-width:130px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center}
+  .mini .v{font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:700;color:var(--teal)}
+  .mini .l{font-size:11px;color:var(--dim);margin-top:3px}
+  .nav{display:flex;justify-content:center;gap:14px;margin:30px 0 50px;flex-wrap:wrap}
+  .nav a{text-decoration:none;color:var(--accent2);border:1px solid var(--border);border-radius:10px;padding:10px 18px;font-size:13px;transition:.2s}
+  .nav a:hover{border-color:var(--accent);background:var(--surface)}
+  footer{text-align:center;padding:40px 24px;border-top:1px solid var(--border);font-size:13px;color:var(--dim);line-height:1.8}
+  footer strong{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge">The Honest Status</div>
+  <h1>Where the Proof Stands</h1>
+  <div class="formula">χ(G) = 1 + p(G)&nbsp;&nbsp;·&nbsp;&nbsp;adjacency ✓&nbsp;&nbsp;·&nbsp;&nbsp;connectivity = open</div>
+  <p class="subtitle">What is proved, what the construction always maintains, and exactly where the gap is — stated plainly, with no overclaim.</p>
+</header>
+
+<div class="wrap">
+
+  <div class="panel proved">
+    <h2>✅ Proved <span class="chip">Theorem</span></h2>
+    <ul>
+      <li><b>The identity <span class="mono">χ(G) = 1 + p(G)</span></b> for every connected simple graph (palette-expansion number). Short, self-contained proof.</li>
+      <li><b>The Patio Adjacency Lemma:</b> in an optimal palette-expansion coloring with expansion centers c₁,…,cₖ, each center cⱼ has a neighbor in every earlier color class Aᵢ. <b>Consequently every pair of color classes is joined by a direct edge.</b></li>
+      <li>Verified computationally on <b>130,000+ graphs</b> across k ∈ {3,4,5,6,7} — <b>0 failures.</b></li>
+    </ul>
+    <div class="plain"><b>In plain words:</b> if you color a graph with as few colors as possible the smart way, the color groups are <i>always</i> pairwise touching. That part is fully nailed down — by hand <i>and</i> by computer.</div>
+  </div>
+
+  <div class="panel kept">
+    <h2>✅ What the construction always maintains <span class="chip">Unconditional</span></h2>
+    <ul>
+      <li><b>Disjointness</b> of the branch sets.</li>
+      <li><b>The adjacency invariant</b> — pairwise adjacency, free at initialization and preserved by every legal move.</li>
+      <li><b>Bounded repair:</b> a strictly decreasing connectivity potential caps the number of repair moves at <span class="mono">|V(G)| − k</span>, so the process always terminates.</li>
+    </ul>
+    <div class="plain"><b>In plain words:</b> the building process never breaks the “everyone touches everyone” rule and never runs forever. Those guarantees are real and proved.</div>
+  </div>
+
+  <div class="panel open">
+    <h2>⚠️ Open — the exact gap <span class="chip">Open Problem 6.1</span></h2>
+    <ul>
+      <li><b>Branch-set connectivity is NOT guaranteed.</b> Making each branch set internally connected <i>while</i> preserving adjacency is the open question.</li>
+      <li>Phrased as a move: <b>does an adjacency-preserving connectivity move always exist while some branch set is disconnected?</b> The answer is not known.</li>
+      <li><b>This is exactly Hadwiger’s conjecture</b> for the relevant k — and it is <b>open for k ≥ 7</b> (settled for k ≤ 6 by Hadwiger; Wagner; Robertson–Seymour–Thomas).</li>
+      <li>Computational evidence is reported <b>for the adjacency half only:</b> on 562 tested graphs the contracted graph was Kₖ-complete (every pair adjacent), but the branch sets were internally connected in only a minority. We do <b>not</b> report these as Kₖ-minor certificates.</li>
+    </ul>
+    <div class="stat-row">
+      <div class="mini"><div class="v">562</div><div class="l">graphs: adjacency half ✓</div></div>
+      <div class="mini"><div class="v">minority</div><div class="l">fully connected branch sets</div></div>
+      <div class="mini"><div class="v">k ≥ 7</div><div class="l">Hadwiger: open</div></div>
+    </div>
+    <div class="plain"><b>In plain words:</b> we can always make the groups touch, but we cannot yet guarantee each group is a single connected piece. Closing <i>that</i> gap would prove Hadwiger — and nobody has, for 83 years. This work does <b>not</b> claim to.</div>
+  </div>
+
+  <div class="panel honest">
+    <h2>🔭 The honest bottom line <span class="chip">No overclaim</span></h2>
+    <ul>
+      <li>This work contributes a clean, independently-proved structural lemma and an honestly-bounded construction — plus a precisely formulated open problem equivalent to Hadwiger.</li>
+      <li><b>We make no claim about Hadwiger’s conjecture for k ≥ 7.</b></li>
+      <li>A companion line of work (the <i>Flip Conjecture</i>, a relaxed move set) explores the same gap from a new finite/local angle — it implies Hadwiger, so it is at least as hard, and it is <b>itself unproved in general.</b> It lives in its own project and is not claimed here.</li>
+    </ul>
+  </div>
+
+  <div class="nav">
+    <a href="INDEX.html">← Back to the visual suite</a>
+    <a href="05_three_phases.html">The construction →</a>
+    <a href="06_purple_connector.html">The connector (a sufficient condition) →</a>
+  </div>
+
+</div>
+
+<footer>
+  <p><strong>A Patio Adjacency Lemma for Greedy Colorings, with Computational Evidence Toward Branch-Set Connectivity</strong></p>
+  <p style="margin-top:6px;">Mizael Antonio Tovar Reyes · Ciudad Juárez, Chihuahua, México</p>
+  <p style="margin-top:12px;font-size:11px;">
+    MSC2020: 05C15, 05C83 · DOI (all versions): 10.5281/zenodo.19262568<br>
+    github.com/mizantorey/chromatic-hadwiger
+  </p>
+</footer>
+
+</body>
+</html>

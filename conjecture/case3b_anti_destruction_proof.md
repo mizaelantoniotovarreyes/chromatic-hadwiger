@@ -1,7 +1,15 @@
 # Lema 8.3f — Prueba Formal Completa del Caso 3b (Articulacion)
 
+> ⚠️ **Nota de contexto (V25).** Lo que se prueba abajo es una propiedad **condicional**:
+> *dado* un vertice `nb` que cumple (S1)–(S3), la movida no destruye aristas (monotonia del
+> conteo). Eso **sigue siendo valido**. Lo que el V25 establecio es que tal `nb` **no siempre
+> existe** — los puntos de articulacion pueden ser **trampas reales** (196 de 344 grafos en el
+> protocolo corregido de §5.3). Por lo tanto este lema **NO cierra** el hueco de la reparacion:
+> es parte de la evidencia honesta, no una prueba de Hadwiger. Ver `CHANGELOG_V25.md` y el
+> Open Problem 6.1.
+
 **Autor:** Mizael Antonio Tovar Reyes
-**Version:** V20 — 2026
+**Version:** V20 (prueba condicional) — contextualizada en V25 — 2026
 **Proposito:** Cerrar el hueco identificado en V19: la propiedad anti-destruccion de
 la Fase 3 para el caso donde `nb` es el unico conector entre `B_j` y algun `B_ℓ`.
 

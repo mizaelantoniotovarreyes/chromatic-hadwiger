@@ -1,4 +1,11 @@
 # CHANGELOG — Version 20
+
+> ⚠️ **Historical record — superseded.** V20 was titled *"…a Constructive Proof of
+> Hadwiger's Conjecture"* and claimed to prove Hadwiger for all k. **That claim was
+> withdrawn.** The branch-set connectivity step is not justified for k ≥ 7. The current,
+> honest scope is the **Patio Adjacency Lemma (proved)** + **Open Problem 6.1 (open)**.
+> See `CHANGELOG_V23.md` and `CHANGELOG_V25.md`. This file is kept only as history.
+
 ## Palette-Expansion Numbers and a Constructive Proof of Hadwiger's Conjecture
 ### Mizael Antonio Tovar Reyes — Ciudad Juárez, Chihuahua, México — March 2026
 

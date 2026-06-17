@@ -17,7 +17,7 @@ BUG CORREGIDO EN V25 (2026-06-12):
   (Mycielski M4, todos los Kneser K(n,2) n=5..10, regulares ralos).
   El estudio completo (refutacion exhaustiva n<=7, taxonomia de
   trampas, Conjetura del Flip) vive en su propio repositorio:
-  github.com/mizaelantoniotovarreyes/flip-conjecture
+  github.com/mizantorey/flip-conjecture
 """
 import sys
 from pathlib import Path

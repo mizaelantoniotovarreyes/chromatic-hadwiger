@@ -1,4 +1,4 @@
-# A Patio Adjacency Lemma for Greedy Colorings — V24 (paper) / V25 (code)
+# A Patio Adjacency Lemma for Greedy Colorings — V25 (current)
 ### by Mizael Antonio Tovar Reyes — Ciudad Juárez, Chihuahua, México
 
 ---
@@ -10,8 +10,9 @@ associated with the following paper:
 
 > **"A Patio Adjacency Lemma for Greedy Colorings, with Computational Evidence
 > Toward Branch-Set Connectivity"**
-> — Mizael Antonio Tovar Reyes, Version 24, 2026
-> DOI (V24): [10.5281/zenodo.20478975](https://doi.org/10.5281/zenodo.20478975)
+> — Mizael Antonio Tovar Reyes, Version 25, 2026
+> DOI (V25, current): [10.5281/zenodo.20736262](https://doi.org/10.5281/zenodo.20736262)
+> DOI (V24, previous): [10.5281/zenodo.20478975](https://doi.org/10.5281/zenodo.20478975)
 > DOI (all versions): [10.5281/zenodo.19262568](https://doi.org/10.5281/zenodo.19262568)
 
 The central proved result is:
@@ -35,7 +36,7 @@ The V25 research implements the repair phase **exactly as written in the
 paper (§4.1, conditions (a)/(b)/(c) checked per move, sets always
 disjoint)** and then studies what move repertoire actually suffices.
 **The V25 scripts and logs live in their own repository:**
-**github.com/mizaelantoniotovarreyes/flip-conjecture** (this repo keeps the
+**github.com/mizantorey/flip-conjecture** (this repo keeps the
 Patio Lemma / adjacency verification suite). Summary of the three findings:
 
 ### Finding 1 — The §4.1 repair phase is provably insufficient
@@ -162,7 +163,7 @@ Verification suite (Patio Lemma, adjacency, articulation): scripts 1–10 +
 
 V25 findings (repair refutation, trap taxonomy, Flip Conjecture) are
 reproduced from their own repository:
-**github.com/mizaelantoniotovarreyes/flip-conjecture**.
+**github.com/mizantorey/flip-conjecture**.
 
 ---
 
@@ -184,8 +185,8 @@ reproduced from their own repository:
 **Mizael Antonio Tovar Reyes**
 Independent researcher — Ciudad Juárez, Chihuahua, México — 2026
 
-- Email: mizaelantoniotovarreyes@gmail.com
-- GitHub: github.com/mizaelantoniotovarreyes
+- Email: mizantorey@gmail.com
+- GitHub: github.com/mizantorey
 
 ## License
 
@@ -200,4 +201,4 @@ with Computational Evidence Toward Branch-Set Connectivity (Version 24).
 Zenodo. https://doi.org/10.5281/zenodo.20478975
 ```
 
-GitHub: https://github.com/mizaelantoniotovarreyes/chromatic-hadwiger
+GitHub: https://github.com/mizantorey/chromatic-hadwiger

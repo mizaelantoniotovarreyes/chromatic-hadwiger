@@ -396,13 +396,13 @@
 
 <header>
   <div class="tag-row">
-    <span class="tag">Lemma 8.3f — Alternating Connector</span>
+    <span class="tag">The Alternating Connector — a sufficient condition</span>
     <span class="tag tag-orig">★ Original Insight — March 2026</span>
   </div>
-  <h1>The Purple Connector<br><span style="font-size:0.75em;opacity:0.75;">Mizael's Alternating Connector Lemma</span></h1>
+  <h1>The Purple Connector<br><span style="font-size:0.75em;opacity:0.75;">Mizael's Alternating Connector</span></h1>
   <p class="subtitle">
     When a branch set is isolated in the contracted graph,<br>
-    there always exists a bridge — direct or via a "purple connector" — to restore connectivity.
+    a "purple connector" can often restore connectivity — a useful <em>sufficient condition</em>, not a guarantee in general.
   </p>
 </header>
 
@@ -464,12 +464,12 @@
       <div class="verify-chips">
         <span class="verify-chip chip-a">5,417 pairs — Case A (direct edge)</span>
         <span class="verify-chip chip-b">177 pairs — Case B (purple connector)</span>
-        <span class="verify-chip chip-g">GAP = 0 (all pairs covered) ✓</span>
+        <span class="verify-chip chip-g">0 uncovered pairs in tested families ✓</span>
       </div>
     </div>
     <div style="font-size:0.8rem;color:rgba(221,224,255,0.45);min-width:160px;">
-      Exhaustive verification over all tested graph families confirms Lemma 8.3f holds
-      with zero uncovered cases.
+      Over all tested graph families every isolated pair was covered — evidence for the
+      adjacency half, not a guarantee that such a move always exists.
     </div>
   </div>
 </div>
@@ -480,16 +480,18 @@
     <span class="quote-icon">✦</span>
     <div class="quote-text">
       <strong>"The purple connector"</strong> — Mizael's original intuition from the hand-drawn sketch, March 2026.
-      When a branch set is isolated and no direct edge can be found, there always exists
-      an intermediate branch set B<sub>m</sub> that acts as a bridge, either
-      transferring connectivity directly or enabling the alternating repair.
-      This insight closes the last gap in the constructive proof of Hadwiger's Conjecture.
+      When a branch set is isolated and no direct edge can be found, <em>sometimes</em> an
+      intermediate branch set B<sub>m</sub> can act as a bridge, transferring connectivity
+      or enabling the alternating repair. It is a genuine repair mechanism — but a
+      <strong>sufficient condition, not a universal one:</strong> an adjacency-preserving
+      connectivity move does <strong>not</strong> always exist. Closing that gap in general
+      is exactly Hadwiger's conjecture, which remains open.
     </div>
   </div>
 </div>
 
 <footer>
-  <div>Palette-Expansion Numbers and a Constructive Proof of Hadwiger's Conjecture</div>
+  <div>Patio Adjacency Lemma for Greedy Colorings</div>
   <div style="margin-top:0.3rem;">
     Mizael Antonio Tovar Reyes — Ciudad Juárez, México — March 2026
   </div>
@@ -527,8 +529,10 @@ const SCENARIOS = {
       from Bci to some other branch set, increasing |E(H)| by 1.<br><br>
       <div class="note-box note-purple">
         <span class="icon">★</span>
-        <span><strong>Lemma 8.3f</strong> guarantees that either a direct edge
-        (Case A) or a bridge via an intermediate branch set (Case B) always exists.</span>
+        <span>When it applies, the connector supplies either a direct edge
+        (Case A) or a bridge via an intermediate branch set (Case B). This is a
+        <strong>sufficient condition</strong> — such a move does <strong>not</strong>
+        always exist in general (Open Problem 6.1).</span>
       </div>
     `,
   },
@@ -654,9 +658,10 @@ const SCENARIOS = {
       • <span class="hl-b">|E(H)| ≥ previous value ✓</span><br><br>
       <div class="note-box note-purple">
         <span class="icon">⇌</span>
-        <span><strong>Anti-Destruction Theorem:</strong> the transfer never
-        reduces |E(H)|. The proof's edge-count invariant is preserved in
-        every step.</span>
+        <span><strong>Edge-count invariant:</strong> when a legal transfer exists it never
+        reduces |E(H)|, so the repair always terminates. But such a transfer does
+        <strong>not</strong> always exist — an articulation point can be a genuine trap
+        (Open Problem 6.1).</span>
       </div>
     `,
   },

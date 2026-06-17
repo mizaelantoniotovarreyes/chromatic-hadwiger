@@ -9,7 +9,7 @@ WHAT IS THIS ABOUT?
 Imagine you have a map and you want to paint every country so that
 no two neighboring countries share the same color.
 
-The question mathematicians have asked for over 80 years is:
+The question mathematicians have asked for over 83 years is:
 
   "How many colors do you actually need — and why exactly that number?"
 
@@ -140,23 +140,25 @@ COMPUTATIONAL VERIFICATION SUMMARY
   130,000+ graphs tested — Patio Adjacency Lemma (Theorem 3.4)
   562 graphs tested — Proposition 3.1: χ(G) = 1 + p(G)
   5,417 pairs — Case A (Alternating Connector)
-  177 pairs — Case B (Alternating Connector)
-  GAP = 0 (zero failures in all tests)
+  177 pairs — Case B (alternating connector — a sufficient condition)
+  Patio Adjacency Lemma: 0 failures across all 130,000+ graphs
+  Articulation trap (Section 5.3): 196 of 344 graphs — CORRECTED in V25
+      (the earlier reported count of 0 was a set-overlap bug)
   10 independent scripts
-  5 previously unresolved cases closed by Script 10
 
 ────────────────────────────────────────────────────────────────
 
 HOW TO ACCESS THE FULL WORK
 
-  Paper (V23):    conjecture/Hadwiger_V23.pdf
-  Paper (Word):   conjecture/Hadwiger_V23.docx
-  Scripts:        scripts/
-  Logs:           logs/
-  Visual suite:   visual/INDEX.html  (open in any browser)
-  Zenodo DOI:     10.5281/zenodo.19802374
-                  https://doi.org/10.5281/zenodo.19802374
-  GitHub:         github.com/mizaelantoniotovarreyes/chromatic-hadwiger
+  Paper (current, V25):  conjecture/Patio-Adjacency-Lemma_V25.docx
+  Changelog:             conjecture/CHANGELOG_V25.md
+  Scripts:               scripts/
+  Logs:                  logs/
+  Visual suite:          visual/INDEX.html  (open in any browser)
+  Zenodo DOI (current):  10.5281/zenodo.20736262
+  Zenodo DOI (all):      10.5281/zenodo.19262568
+                         https://doi.org/10.5281/zenodo.20736262
+  GitHub:                github.com/mizantorey/chromatic-hadwiger
 
 ────────────────────────────────────────────────────────────────
 
